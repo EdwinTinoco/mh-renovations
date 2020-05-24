@@ -1,15 +1,22 @@
 import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
+
+import Home from "./pages/home"
 
 export default class App extends Component {
   render() {
     return (
       <div className="app">
-        <h1>DevCamp React Starter</h1>
-        <h2>React + Redux</h2>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </Router>
 
-        <div style={{ color: "red" }}>
-          Warning: this is the experimental template, pardon the bugs
-        </div>
       </div>
     );
   }
