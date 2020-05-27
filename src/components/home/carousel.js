@@ -11,15 +11,17 @@ export default function CarouselComponent() {
             useKeyboardArrows
             autoPlay
             showStatus={false}
+            showThumbs={false}
          >
             <div>
-               <img src="../../../public/img2.jpg" />
+               <img src={Img2} />
             </div>
             <div>
-               <img src="../../../public/img2.jpg" />
+               <img src={Img2} />
             </div>
             <div>
-               <img src="../../../public/img2.jpg" />
+               <img src={Img2} />
+
             </div>
          </Carousel>
       </div>
