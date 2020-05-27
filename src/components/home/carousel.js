@@ -21,6 +21,7 @@ export default function CarouselComponent() {
             </div>
             <div>
                <img src={Img2} />
+
             </div>
          </Carousel>
       </div>
