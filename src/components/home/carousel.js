@@ -26,9 +26,9 @@ export default function CarouselComponent() {
             <div>
                <img src={Img3} />
             </div>
-            <div>
+            {/* <div>
                <img src={Img4} />
-            </div>
+            </div> */}
             <div>
                <img src={Img6} />
             </div>
