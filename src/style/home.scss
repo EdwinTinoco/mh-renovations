@@ -1,0 +1,251 @@
+.home-main-wrapper{
+   .some-categories-wrapper{
+      background-color: #ecf0f1;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .category{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+
+      img{
+         border-radius: 3px;
+         width: 20vw;
+         height: 18vh;
+      }
+
+      p{
+         color: #302f2f;
+      }
+
+      a{
+         text-decoration: none;
+         color: #cc2f2f;
+         transition: 0.3s ease-in-out;
+
+         &:hover{
+            font-weight: bold;
+            color: black;
+         }
+      }      
+   }
+
+   .hero-content-wrapper{
+      .contractors-info{
+         padding-top: 40px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         .main-title h1{
+            font-size: 2.5em;
+            color: #1452c5;
+            font-weight: bold;
+         }
+
+         .title h2{
+            font-size: 1.8em;
+         }
+
+         .hero-description{
+            padding: 0px 120px;
+
+            p{
+               font-size: 1.3em;
+               color: #545454;
+            }
+         }
+      }
+
+      .virtual-budget-consultation{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         padding-bottom: 60px;
+
+         .title h2{
+            font-size: 1.8em;
+            color: #545454;
+         }
+
+         .schedule-link{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            a{
+               text-decoration: none;
+               color: #cc2f2f ;
+               font-size: 1.2em;
+               transition: 0.3s ease-in-out;
+
+               &:hover{                 
+                  color: black;
+               }
+            }
+         }
+
+         button{
+            background-color: #273cb3;
+            border: 1px solid #273cb3;
+            padding: 20px 60px;
+            border-radius: 5px;
+            color: whitesmoke;
+            font-size: 1.3em;
+            transition: 0.3s ease-in-out;
+
+            &:hover{
+               background-color: #5762a3;
+               border: 1px solid #5762a3;
+               cursor: pointer;
+            }
+         }
+      }
+
+      .hero-image-wrapper{
+         background-image: url(../components/home/content/kitchen-1.jpg);
+         padding: 100px;
+         height: 30vh;
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;  
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         .title h1{
+            color: #1452c5;
+            font-size: 3.5em;
+         }
+
+         .description{
+            padding: 0px 60px;
+            p{
+               color: #5c5858;
+               font-size: 1.2em;
+               font-weight: bold;
+            }
+         }
+
+         .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 380px;
+            height: 55px;
+            border: 1.5px solid #1452c5;
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+
+            p{
+               font-size: 1.5em;
+               color: #1452c5;
+               font-weight: bold;
+            }
+
+            &:hover{
+               cursor: pointer;
+               background-color: #1452c5;
+               p{
+                  color: whitesmoke;
+               }
+            }
+         }
+      }
+
+      .sign-up-newsletter-wrapper{
+         background-color: #1452c5;
+         padding: 80px 0px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         .title-icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .icon{
+               margin-right: 15px;
+               color: whitesmoke;
+               font-size: 2.5em;
+            }
+
+            h2{
+               color: whitesmoke;
+               font-size: 2.5em;
+            }
+         }
+
+         .input-button-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            input{
+               font-size: 1.2em;
+               width: 350px;
+               height: 60px;
+               border-radius: 5px;
+               border: 1px solid #1452c5;
+               padding: 0px 20px;
+            }
+
+            button{
+               background-color: #1f3f8a;
+               font-size: 1.2em;
+               color: whitesmoke;
+               width: 350px;
+               height: 60px;
+               border-radius: 5px;
+               border: 1px solid #1452c5;
+               transition: 0.3s ease-in-out;
+
+               &:hover{
+                  cursor: pointer;
+                  background-color: #071f57;
+               }
+            }
+
+            .name{
+               margin-right: 10px;               
+            }
+
+            .email{
+               margin-right: 10px; 
+            }
+         }
+      }
+
+      .brands-wrapper{         
+         text-align: center;
+
+         .title h2{
+            color: #1452c5;
+         }
+
+         .brand-img-wrapper{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .img img{
+               width: 12vw;
+               height: 12vh;
+            }
+         }
+      }
+   }
+}

@@ -4,10 +4,17 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import Icons from "../helpers/icons"
 
 import Home from "./pages/home"
 
 export default class App extends Component {
+  constructor() {
+    super();
+
+    Icons();
+  }
+
   render() {
     return (
       <div className="app">
