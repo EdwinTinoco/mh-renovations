@@ -7,6 +7,7 @@ import {
 import Icons from "../helpers/icons"
 
 import Home from "./pages/home"
+import Footer from "./footer/footer"
 
 export default class App extends Component {
   constructor() {
@@ -22,6 +23,7 @@ export default class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
           </Switch>
+          <Footer />
         </Router>
       </div>
     );
