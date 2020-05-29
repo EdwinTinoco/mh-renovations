@@ -1,6 +1,124 @@
 .footer-main-wrapper{
-   // background-color: black;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+   background-color: black;
+   padding-top: 80px;
+
+   .footer-content{     
+     padding-bottom: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .title h2{
+         color: #545454;
+         font-size: 2.1em;
+         font-weight: 900;
+      }
+
+      .right-column{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+      
+
+         .description{
+            width: 400px;
+            height: 100px;
+
+            p{
+               color: whitesmoke;
+            }
+         }
+      }
+
+      .center-column{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         .links-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+
+            .link{
+               margin: 8px 0px;
+
+               a{
+                  text-decoration: none;
+                  color: whitesmoke;
+                  transition: 0.3s ease-in-out;
+
+                  &:hover{
+                     color: #1452c5;
+                  }
+               }           
+            }
+         }
+      }
+
+      .left-column{
+         display: flex;
+         flex-direction: column;
+         align-items: center; 
+
+         .phone-number-icon{
+            display: flex;
+            align-items: center;
+            margin: 8px 0px;
+
+            .icon{
+               color: whitesmoke;
+               margin-right: 15px;
+            }
+
+            .phone{
+               color: whitesmoke;
+            }
+         }
+
+         .email-icon{
+            display: flex;
+            align-items: center;
+            margin: 8px 0px;
+
+            .icon{
+               color: whitesmoke;
+               margin-right: 15px;
+            }
+
+            .email{
+               color: whitesmoke;
+            }
+         }
+
+         .social-media{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 25px;
+
+            .facebook{
+               color: whitesmoke;
+            }
+
+            .instagram{
+               color: whitesmoke;
+            }
+         }
+      }
+   }
+
+   .copyright-wrapper{
+      padding-bottom: 40px;
+      .info{
+         padding-top: 16px;
+         color: #1452c5;
+         text-align: center;
+      }
+      
+   }
 }

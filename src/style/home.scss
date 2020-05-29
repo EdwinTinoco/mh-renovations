@@ -1,8 +1,8 @@
 .home-main-wrapper{
    .some-categories-wrapper{
       background-color: #ecf0f1;
-      padding-top: 50px;
-      padding-bottom: 40px;
+      padding-top: 100px;
+      padding-bottom: 80px;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -69,7 +69,7 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         padding-bottom: 60px;
+         padding-bottom: 110px;
 
          .title h2{
             font-size: 1.8em;
@@ -114,7 +114,7 @@
       .hero-image-wrapper{
          background-image: url(../components/home/content/kitchen-1.jpg);
          padding: 100px;
-         height: 30vh;
+         height: 50vh;
          background-attachment: fixed;
          background-position: center;
          background-repeat: no-repeat;
@@ -242,10 +242,12 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
+            margin-bottom: 90px;
 
             .img img{
                width: 12vw;
                height: 12vh;
+               border-radius: 5px;
             }
          }
       }
