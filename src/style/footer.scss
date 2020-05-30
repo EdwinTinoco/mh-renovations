@@ -1,0 +1,169 @@
+.footer-main-wrapper{
+   background-color: black;
+   padding-top: 80px;
+
+   .footer-content{     
+     padding-bottom: 80px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .title h2{
+         color: #545454;
+         font-size: 2.1em;
+         font-weight: 900;
+      }
+
+      .right-column{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+      
+
+         .description{
+            width: 400px;
+            height: 100px;
+
+            p{
+               color: whitesmoke;
+            }
+         }
+      }
+
+      .center-column{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         .links-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+
+            .link{
+               margin: 8px 0px;
+
+               a{
+                  text-decoration: none;
+                  color: whitesmoke;
+                  transition: 0.3s ease-in-out;
+
+                  &:hover{
+                     color: #1452c5;
+                  }
+               }           
+            }
+         }
+      }
+
+      .left-column{
+         display: flex;
+         flex-direction: column;
+         align-items: center; 
+
+         .phone-number-icon{
+            display: flex;
+            align-items: center;
+            margin: 8px 0px;
+
+            .icon{
+               color: whitesmoke;
+               margin-right: 15px;
+            }
+
+            .phone{
+               color: whitesmoke;
+            }
+         }
+
+         .email-icon{
+            display: flex;
+            align-items: center;
+            margin: 8px 0px;
+
+            .icon{
+               color: whitesmoke;
+               margin-right: 15px;
+            }
+
+            .email{
+               color: whitesmoke;
+            }
+         }
+
+         .social-media{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 25px;
+
+            .facebook{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;               
+               background-color: #545454;
+               width: 45px;
+               height: 45px;
+               border-radius: 50px;
+               color: whitesmoke;
+               font-size: 1.6em;
+
+               &:hover{
+                  background-color: #1452c5;
+                  cursor: pointer;
+               }
+            }
+
+            .instagram{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;  
+               background-color: #545454;
+               width: 45px;
+               height: 45px;
+               border-radius: 50px;
+               color: whitesmoke;
+               font-size: 1.8em;
+               margin: 0px 10px;
+
+               &:hover{
+                  background-color: #1452c5;
+                  cursor: pointer;
+               }
+            }
+
+            .google{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;  
+               background-color: #545454;
+               width: 45px;
+               height: 45px;
+               border-radius: 50px;
+               color: whitesmoke;
+               font-size: 1.6em;
+
+               &:hover{
+                  background-color: #1452c5;
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+   }
+
+   .copyright-wrapper{
+      padding-bottom: 16px;
+      
+      .info{
+         padding-top: 9px;
+         color: #1452c5;
+         text-align: center;
+      }
+      
+   }
+}

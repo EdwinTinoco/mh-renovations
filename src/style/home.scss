@@ -1,8 +1,8 @@
 .home-main-wrapper{
    .some-categories-wrapper{
       background-color: #ecf0f1;
-      padding-top: 50px;
-      padding-bottom: 40px;
+      padding-top: 100px;
+      padding-bottom: 80px;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -17,7 +17,7 @@
       img{
          border-radius: 3px;
          width: 20vw;
-         height: 18vh;
+         height: 19vh;
       }
 
       p{
@@ -29,8 +29,7 @@
          color: #cc2f2f;
          transition: 0.3s ease-in-out;
 
-         &:hover{
-            font-weight: bold;
+         &:hover{            
             color: black;
          }
       }      
@@ -38,7 +37,8 @@
 
    .hero-content-wrapper{
       .contractors-info{
-         padding-top: 40px;
+         padding-top: 80px;
+         padding-bottom: 60px;
          display: flex;
          flex-direction: column;
          justify-content: center;
@@ -69,7 +69,7 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         padding-bottom: 60px;
+         padding-bottom: 110px;
 
          .title h2{
             font-size: 1.8em;
@@ -81,6 +81,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-bottom: 30px;
 
             a{
                text-decoration: none;
@@ -112,9 +113,9 @@
       }
 
       .hero-image-wrapper{
-         background-image: url(../components/home/content/kitchen-1.jpg);
+         background-image: url(../components/home/content/lobby-6.jpg);
          padding: 100px;
-         height: 30vh;
+         height: 50vh;
          background-attachment: fixed;
          background-position: center;
          background-repeat: no-repeat;
@@ -229,10 +230,12 @@
          }
       }
 
-      .brands-wrapper{         
+      .brands-wrapper{    
+         margin-top: 70px;     
          text-align: center;
 
          .title h2{
+            margin-bottom: 40px;
             color: #1452c5;
          }
 
@@ -240,10 +243,12 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
+            margin-bottom: 90px;
 
             .img img{
                width: 12vw;
                height: 12vh;
+               border-radius: 5px;
             }
          }
       }
