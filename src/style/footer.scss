@@ -3,7 +3,7 @@
    padding-top: 80px;
 
    .footer-content{     
-     padding-bottom: 50px;
+     padding-bottom: 80px;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -102,20 +102,65 @@
             margin-top: 25px;
 
             .facebook{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;               
+               background-color: #545454;
+               width: 45px;
+               height: 45px;
+               border-radius: 50px;
                color: whitesmoke;
+               font-size: 1.6em;
+
+               &:hover{
+                  background-color: #1452c5;
+                  cursor: pointer;
+               }
             }
 
             .instagram{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;  
+               background-color: #545454;
+               width: 45px;
+               height: 45px;
+               border-radius: 50px;
                color: whitesmoke;
+               font-size: 1.8em;
+               margin: 0px 10px;
+
+               &:hover{
+                  background-color: #1452c5;
+                  cursor: pointer;
+               }
+            }
+
+            .google{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;  
+               background-color: #545454;
+               width: 45px;
+               height: 45px;
+               border-radius: 50px;
+               color: whitesmoke;
+               font-size: 1.6em;
+
+               &:hover{
+                  background-color: #1452c5;
+                  cursor: pointer;
+               }
             }
          }
       }
    }
 
    .copyright-wrapper{
-      padding-bottom: 40px;
+      padding-bottom: 16px;
+      
       .info{
-         padding-top: 16px;
+         padding-top: 9px;
          color: #1452c5;
          text-align: center;
       }

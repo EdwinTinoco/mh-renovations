@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
    return (
@@ -62,12 +63,19 @@ export default function Footer() {
                </div>
 
                <div className="social-media">
-                  <div className="facebook">
-                     facebook
-               </div>
+                  <a href="https://www.facebook.com/MHRenovationsUtah/">
+                     <div className="facebook">
+                        <FontAwesomeIcon icon={faFacebookF} />
+                     </div>
+                  </a>
+
                   <div className="instagram">
-                     instagram
-               </div>
+                     <FontAwesomeIcon icon={faInstagram} />
+                  </div>
+
+                  <div className="google">
+                     <FontAwesomeIcon icon={faGoogle} />
+                  </div>
                </div>
             </div>
          </div>

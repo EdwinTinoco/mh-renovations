@@ -17,7 +17,7 @@
       img{
          border-radius: 3px;
          width: 20vw;
-         height: 18vh;
+         height: 19vh;
       }
 
       p{
@@ -29,8 +29,7 @@
          color: #cc2f2f;
          transition: 0.3s ease-in-out;
 
-         &:hover{
-            font-weight: bold;
+         &:hover{            
             color: black;
          }
       }      
@@ -38,7 +37,8 @@
 
    .hero-content-wrapper{
       .contractors-info{
-         padding-top: 40px;
+         padding-top: 80px;
+         padding-bottom: 60px;
          display: flex;
          flex-direction: column;
          justify-content: center;
@@ -81,6 +81,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-bottom: 30px;
 
             a{
                text-decoration: none;
@@ -112,7 +113,7 @@
       }
 
       .hero-image-wrapper{
-         background-image: url(../components/home/content/kitchen-1.jpg);
+         background-image: url(../components/home/content/lobby-6.jpg);
          padding: 100px;
          height: 50vh;
          background-attachment: fixed;
