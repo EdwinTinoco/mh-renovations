@@ -6,6 +6,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
       .category{
          display: flex;
@@ -124,17 +125,18 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
+         
 
          .title h1{
-            color: #1452c5;
+            color: whitesmoke;
             font-size: 3.5em;
          }
 
          .description{
             padding: 0px 60px;
             p{
-               color: #5c5858;
-               font-size: 1.2em;
+               color: whitesmoke;
+               font-size: 1.5em;
                font-weight: bold;
             }
          }
@@ -145,19 +147,21 @@
             align-items: center;
             width: 380px;
             height: 55px;
-            border: 1.5px solid #1452c5;
+            border: 1.5px solid whitesmoke;
             border-radius: 5px;
             transition: 0.3s ease-in-out;
 
             p{
                font-size: 1.5em;
-               color: #1452c5;
+               color: whitesmoke;
                font-weight: bold;
             }
 
             &:hover{
                cursor: pointer;
                background-color: #1452c5;
+               border: 1.5px solid #1452c5;
+
                p{
                   color: whitesmoke;
                }
@@ -172,6 +176,7 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
+         box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
          .title-icon{
             display: flex;

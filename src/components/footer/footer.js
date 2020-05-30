@@ -63,7 +63,7 @@ export default function Footer() {
                </div>
 
                <div className="social-media">
-                  <a href="https://www.facebook.com/MHRenovationsUtah/">
+                  <a href="https://www.facebook.com/MHRenovationsUtah/" target="_blank">
                      <div className="facebook">
                         <FontAwesomeIcon icon={faFacebookF} />
                      </div>
