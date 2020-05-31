@@ -7,6 +7,7 @@ import {
 import Icons from "../helpers/icons"
 
 import Home from "./pages/home"
+import NavigationBar from "./navigation_bar/navigation-bar"
 import Footer from "./footer/footer"
 
 export default class App extends Component {
@@ -20,6 +21,7 @@ export default class App extends Component {
     return (
       <div className="app">
         <Router>
+          <NavigationBar scrolling dark expand="md" fixed="top" />
           <Switch>
             <Route exact path="/" component={Home} />
           </Switch>
