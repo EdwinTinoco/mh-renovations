@@ -1,29 +1,31 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom"
+import Logo from "../../../static/assets/images/logo/mh_logo2.png"
 
 export default class Navbar extends Component {
   render() {
     return (
       <div className="nav">
         <div className="leftColumn">
-          <a href="/">
-            <img src="https://via.placeholder.com/200x100" />
-          </a>
+          <Link to="/">
+            <img src={Logo} />
+          </Link>
         </div>
 
         <div className="rightColumn">
-          <div className="menuLinks">
+          <div className="links-wrapper">
             <div className="dropdown">
               <button className="dropbtn">About Us</button>
               <div className="dropdown-content">
-                <a href="/about">Who we are</a>
+                <Link to="/about">Who we are</Link>
               </div>
             </div>
             <div className="dropdown">
               <button className="dropbtn">Services</button>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <Link to="/">Link 1</Link>
+                <Link to="/">Link 2</Link>
+                <Link to="/">Link 3</Link>
               </div>
             </div>
             <div className="dropdown">
