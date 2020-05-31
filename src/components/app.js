@@ -9,6 +9,8 @@ import Icons from "../helpers/icons"
 import Home from "./pages/home"
 import NavigationBar from "./navigation_bar/navigation-bar"
 import Footer from "./footer/footer"
+import AboutUs from "./pages/about"
+
 
 export default class App extends Component {
   constructor() {
@@ -21,9 +23,10 @@ export default class App extends Component {
     return (
       <div className="app">
         <Router>
-          <NavigationBar scrolling dark expand="md" fixed="top" />
+          <NavigationBar />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/about" component={AboutUs} />
           </Switch>
           <Footer />
         </Router>

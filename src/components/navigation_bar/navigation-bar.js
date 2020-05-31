@@ -6,7 +6,9 @@ export default function NavigationBar() {
    return (
       <div className="navbar-main-wrapper">
          <div className="left-column">
-            <img src={Logo} alt="logo" />
+            <Link to="/">
+               <img src={Logo} alt="logo" />
+            </Link>
          </div>
 
          <div className="right-column">
@@ -15,7 +17,7 @@ export default function NavigationBar() {
                   <Link to="/">Home</Link>
                </div>
                <div className="link">
-                  <Link to="/">About us</Link>
+                  <Link to="/about">About us</Link>
                </div>
                <div className="link">
                   <Link to="/">Service</Link>
