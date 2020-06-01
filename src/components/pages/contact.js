@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SubscribeNewsletter from "../subscribe/subscribe-newsletter";
 
 export default function ContactUs() {
    return (
@@ -72,11 +73,14 @@ export default function ContactUs() {
 
                <div className="get-quote">
                   <p>Looking To Get A Quote On Your Next Project?</p>
-                  <button type="button">Get a quote</button>
+                  <button type="button">
+                     <FontAwesomeIcon icon="calculator" />
+                     Get a quote</button>
                </div>
             </div>
-
          </div>
+
+         <SubscribeNewsletter />
       </div>
    )
 }

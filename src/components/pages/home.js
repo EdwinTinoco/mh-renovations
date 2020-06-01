@@ -14,6 +14,7 @@ import SleepInn from "../home/brands/sleep-inn.png"
 import SpringHill from "../home/brands/springhill.png"
 
 import CarouselComponent from "../home/carousel"
+import SubscribeNewsletter from "../subscribe/subscribe-newsletter";
 
 export default function Home() {
    return (
@@ -113,7 +114,14 @@ export default function Home() {
                   <p>We will walk you through your home and asses key design elements and budget considerations</p>
                </div>
                <div className="buttons">
-                  <button type="button">Featured Projects</button>
+                  <button type="button">
+                     <div className="icon">
+                        <FontAwesomeIcon icon="camera" />
+                     </div>
+                     <div className="button-desc">
+                        Featured Projects
+                        </div>
+                  </button>
                </div>
             </div>
 
@@ -133,25 +141,7 @@ export default function Home() {
                </div>
             </div>
 
-            <div className="sign-up-newsletter-wrapper">
-               <div className="title-icon">
-                  <div className="icon">
-                     <FontAwesomeIcon icon="envelope" />
-                  </div>
-                  <h2>Sign Up to our NewsLetter</h2>
-               </div>
-               <div className="input-button-wrapper">
-                  <div className="name">
-                     <input type="text" placeholder="Name" />
-                  </div>
-                  <div className="email">
-                     <input type="text" placeholder="Email" />
-                  </div>
-                  <div className="button">
-                     <button type="button">Subscribe</button>
-                  </div>
-               </div>
-            </div>
+            <SubscribeNewsletter />
 
             <div className="brands-wrapper">
                <div className="title">
