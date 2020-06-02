@@ -37,14 +37,14 @@ export default class Navbar extends Component {
               </div>
             </div>
             <div className="dropdown">
-              <a href="/contactUs">
+              <Link to="/contact">
                 <button className="dropbtn">Contact Us</button>
-              </a>
+              </Link>
             </div>
             <div className="dropdown">
-              <a href="/quote">
+              <Link to="/get-quote">
                 <button className="dropbtn">Get a Quote</button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
