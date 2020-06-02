@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import SubscribeNewsletter from "../subscribe/subscribe-newsletter";
 
 export default function ContactUs() {
@@ -23,23 +25,23 @@ export default function ContactUs() {
 
                <form className="form">
                   <div className="form-group">
-                     <input type="text" id="name" placeholder="Your name" />
-                     <label for="name">Your name</label>
+                     <input type="text" id="name" placeholder="Name" />
+                     <label htmlFor="name">Name</label>
                   </div>
 
                   <div className="form-group">
-                     <input type="text" id="email" placeholder="Your email" />
-                     <label for="name">Your email</label>
+                     <input type="text" id="email" placeholder="Email" />
+                     <label htmlFor="email">Email</label>
                   </div>
 
                   <div className="form-group">
-                     <input type="text" id="name" placeholder="Your phone" />
-                     <label for="name">Your phone</label>
+                     <input type="text" id="phone" placeholder="Phone" />
+                     <label htmlFor="phone">Phone</label>
                   </div>
 
                   <div className="form-group">
                      <textarea name="message" id="message" placeholder="Message" />
-                     <label for="message">Message</label>
+                     <label htmlFor="message">Message</label>
                   </div>
 
                   <div className="center-btn-wrapper">
@@ -76,12 +78,14 @@ export default function ContactUs() {
 
                <div className="get-quote">
                   <p>Looking To Get A Quote On Your Next Project?</p>
-                  <button type="button">
-                     <div className="icon">
-                        <FontAwesomeIcon icon="calculator" />
+                  <Link to="/get-quote">
+                     <div className="button">
+                        <div className="icon">
+                           <FontAwesomeIcon icon="calculator" />
+                        </div>
+                        Get a quote
                      </div>
-                     Get a quote
-                  </button>
+                  </Link>
                </div>
             </div>
          </div>
