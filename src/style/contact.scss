@@ -45,7 +45,7 @@
                font-size: 1.2em;
                font-family: inherit;
                color: inherit;
-               padding: 0.8em 1.8em;
+               padding: 0.5em 1.4em;
                border-radius: 3px;
                border: 1px solid #11122b;
                width: 85%;
@@ -68,7 +68,7 @@
                font-size: 1.2em;
                font-family: inherit;
                color: color;
-               padding: 1.2em 1.7em;
+               padding: 1.2em 1.3em;
                transition: all 0.3s;
 
                &:focus {
@@ -179,20 +179,17 @@
             button{               
                background-color: #273cb3;
                border: 1px solid #273cb3;
-               padding: 20px 60px;
+               padding: 1.2px 90px;
                border-radius: 5px;
                color: whitesmoke;
                font-size: 1.5em;
                font-family: inherit;
                outline: none;
-               transition: 0.3s ease-in-out;
-               display: flex;
-               justify-content: center;
-               align-items: center;
+               transition: 0.3s ease-in-out;              
    
                .icon{
                   margin-right: 15px;
-                  font-size: 1.2em;
+                  font-size: 1em;
                }
    
                &:hover{

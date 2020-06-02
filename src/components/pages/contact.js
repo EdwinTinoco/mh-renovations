@@ -20,7 +20,7 @@ export default function ContactUs() {
                   <p>If you have any questions or would like to book
                      an appointment fill out the form below or give us a call.</p>
                </div>
-               {/* <div className="form"> */}
+
                <form className="form">
                   <div className="form-group">
                      <input type="text" id="name" placeholder="Your name" />
@@ -43,10 +43,10 @@ export default function ContactUs() {
                   </div>
 
                   <div className="center-btn-wrapper">
-                     <button type="submit" class="btn">Send</button>
+                     <button type="submit" className="btn">Send</button>
                   </div>
                </form>
-               {/* </div> */}
+
             </div>
 
             <div className="info-wrapper">

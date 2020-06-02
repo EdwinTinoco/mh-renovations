@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Kitchen1 from "../home/content/kitchen-1.jpg"
@@ -110,7 +111,7 @@ export default function Home() {
                   <h2>Free Virtual Design and Budget Consultations</h2>
                </div>
                <div className="schedule-link">
-                  <a href="/">Click here to schedule a time today</a>
+                  <Link to="/get-quote">Click here to schedule a time today</Link>
                   <p>We will walk you through your home and asses key design elements and budget considerations</p>
                </div>
                <div className="buttons">
