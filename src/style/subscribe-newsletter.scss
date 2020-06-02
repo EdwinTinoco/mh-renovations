@@ -33,17 +33,26 @@
          font-size: 1.2em;
          width: 350px;
          height: 60px;
+         font-family: inherit;
+         color: inherit;
          border-radius: 5px;
          border: 1px solid #1452c5;
          padding: 0px 20px;
+
+         &:focus{
+            outline: none;            
+            border: 1px solid #1452c5;
+         }
       }
 
       button{
          background-color: #1f3f8a;
          font-size: 1.2em;
+         font-family: inherit;
          color: whitesmoke;
          width: 350px;
          height: 60px;
+         outline: none;
          border-radius: 5px;
          border: 1px solid #1452c5;
          transition: 0.3s ease-in-out;
@@ -51,6 +60,10 @@
          &:hover{
             cursor: pointer;
             background-color: #071f57;
+         }
+
+         &:active {
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
          }
       }
 

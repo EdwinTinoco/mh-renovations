@@ -103,6 +103,7 @@
             border-radius: 5px;
             color: whitesmoke;
             font-size: 1.3em;
+            outline: none;
             transition: 0.3s ease-in-out;
             display: flex;
             justify-content: space-around;
@@ -117,6 +118,10 @@
                background-color: #5762a3;
                border: 1px solid #5762a3;
                cursor: pointer;
+            }
+
+            &:active {
+               box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
             }
          }
       }
