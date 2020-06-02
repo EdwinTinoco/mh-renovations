@@ -63,18 +63,20 @@ export default function ContactUs() {
                </div>
 
                <div className="address">
-                  <p>9999 Some Street</p>
-                  <p>Provo, UT, 80000</p>
+                  9999 Some Street <br />
+                  Provo, UT, 80000
                </div>
 
                <div className="phone-number">
-                  <p>(555) 555-5555</p>
-                  <p>(555) 555-5555</p>
+                  (555) 555-5555 <br />
+                  (555) 555-5555
                </div>
 
                <div className="email">
                   <p>ejemplo@gmail.com</p>
                </div>
+
+               <hr />
 
                <div className="get-quote">
                   <p>Looking To Get A Quote On Your Next Project?</p>
