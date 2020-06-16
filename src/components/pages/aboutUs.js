@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import image1 from "../../../static/assets/images/aboutUs/aboutUs1.png";
 import profile1 from "../../../static/assets/images/aboutUs/profile1.png";
 export default class About extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="aboutUs-wrapper">
