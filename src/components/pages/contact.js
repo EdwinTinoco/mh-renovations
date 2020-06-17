@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import emailjs from "emailjs-com";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import SubscribeNewsletter from "../subscribe/subscribe-newsletter";
