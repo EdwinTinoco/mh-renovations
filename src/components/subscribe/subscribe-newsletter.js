@@ -23,22 +23,24 @@ export default class SubscribeNewsletter extends Component {
    handleSubmit(e) {
       e.preventDefault();
 
-      let service_id = "gmail";
-      let template_id = "newsLetterSubscribe_template";
-      let user_id = "user_4F9p2P6OXkAqnr87vVSVS";
+      if (!this.state.name == "" || !this.state.email == "") {
+         let service_id = "gmail";
+         let template_id = "newsLetterSubscribe_template";
+         let user_id = "user_4F9p2P6OXkAqnr87vVSVS";
 
-      emailjs.send(service_id, template_id, this.state, user_id)
-         .then(response => {
-            console.log("SUCCESS!", response.status, response.text);
-            this.setState({
-               name: "",
-               email: ""
-            });
-         },
-            (err) => {
-               console.log("FAILED...", err);
+         emailjs.send(service_id, template_id, this.state, user_id)
+            .then(response => {
+               console.log("SUCCESS!", response.status, response.text);
+               this.setState({
+                  name: "",
+                  email: ""
+               });
             },
-         );
+               (err) => {
+                  console.log("FAILED...", err);
+               },
+            );
+      }
    }
 
    render() {
