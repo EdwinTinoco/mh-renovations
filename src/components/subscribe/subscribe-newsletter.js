@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import emailjs from "emailjs-com";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class SubscribeNewsletter extends Component {
@@ -23,7 +24,7 @@ export default class SubscribeNewsletter extends Component {
    handleSubmit(e) {
       e.preventDefault();
 
-      if (!this.state.name == "" || !this.state.email == "") {
+      if (this.state.name !== "" && this.state.email !== "") {
          let service_id = "gmail";
          let template_id = "newsletter_subscribe_template";
          let user_id = "user_4F9p2P6OXkAqnr87vVSVS";
@@ -56,7 +57,7 @@ export default class SubscribeNewsletter extends Component {
                <div className="name">
                   <input
                      type="text"
-                     placeholder="Name"
+                     placeholder="Name (required)"
                      name="name"
                      value={this.state.name}
                      onChange={this.handleChange}
@@ -65,14 +66,14 @@ export default class SubscribeNewsletter extends Component {
                <div className="email">
                   <input
                      type="email"
-                     placeholder="Email"
+                     placeholder="Email (required)"
                      name="email"
-                     value={this.state.name}
+                     value={this.state.email}
                      onChange={this.handleChange}
                   />
                </div>
                <div className="button">
-                  <button type="button">Subscribe</button>
+                  <button type="submit">Subscribe</button>
                </div>
             </form>
          </div>
