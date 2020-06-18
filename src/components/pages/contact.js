@@ -14,6 +14,7 @@ export default class ContactUs extends Component {
          email: "",
          phone: "",
          message: "",
+         replyTo: "edwin2891@hotmail.com",
          errorMessage: "",
          showErrorMessage: "none"
       }
@@ -22,9 +23,14 @@ export default class ContactUs extends Component {
       this.handleSubmit = this.handleSubmit.bind(this);
    }
 
-   validatePhoneNumber() {
+   // validatePhoneNumber() {
+   //    let tempPhone = this.state.phone.replace(/ /g, "")
 
-   }
+   //    for (var i in tempPhone){
+   //       if (i )
+   //    }
+   //    console.log(tempPhone)
+   // }
 
    handleChange(e) {
       this.setState({
