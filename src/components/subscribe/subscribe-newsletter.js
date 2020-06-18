@@ -25,7 +25,7 @@ export default class SubscribeNewsletter extends Component {
 
       if (!this.state.name == "" || !this.state.email == "") {
          let service_id = "gmail";
-         let template_id = "newsLetterSubscribe_template";
+         let template_id = "newsletter_subscribe_template";
          let user_id = "user_4F9p2P6OXkAqnr87vVSVS";
 
          emailjs.send(service_id, template_id, this.state, user_id)
