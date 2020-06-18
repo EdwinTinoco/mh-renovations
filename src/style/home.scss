@@ -19,6 +19,13 @@
          border-radius: 3px;
          width: 20vw;
          height: 19vh;
+         transition: transform 0.3s;
+
+         &:hover{
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1); 
+         }
       }
 
       p{
