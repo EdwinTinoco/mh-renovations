@@ -13,11 +13,17 @@ export default class ContactUs extends Component {
          name: "",
          email: "",
          phone: "",
-         message: ""
+         message: "",
+         errorMessage: "",
+         showErrorMessage: "none"
       }
 
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
+   }
+
+   validatePhoneNumber() {
+
    }
 
    handleChange(e) {
@@ -29,6 +35,33 @@ export default class ContactUs extends Component {
    handleSubmit(e) {
       e.preventDefault();
 
+      if (this.state.name == "" || this.state.email == "" || this.state.message == "") {
+         this.setState({
+            errorMessage: "Should type name, email and message at least!",
+            showErrorMessage: "block"
+         })
+      } else {
+         let service_id = "gmail";
+         let template_id = "contact_template";
+         let user_id = "user_4F9p2P6OXkAqnr87vVSVS";
+
+         emailjs.send(service_id, template_id, this.state, user_id)
+            .then(response => {
+               console.log("SUCCESS!", response.status, response.text);
+               this.setState({
+                  name: "",
+                  email: "",
+                  phone: "",
+                  message: "",
+                  errorMessage: "Message has been sent!",
+                  showErrorMessage: "block"
+               });
+            },
+               (err) => {
+                  console.log("FAILED...", err);
+               },
+            );
+      }
    }
 
    render() {
@@ -96,6 +129,10 @@ export default class ContactUs extends Component {
                            onChange={this.handleChange}
                         />
                         <label htmlFor="message">Message</label>
+                     </div>
+
+                     <div className="message-sent">
+                        <p style={{ display: this.state.showErrorMessage }} >{this.state.errorMessage}</p>
                      </div>
 
                      <div className="center-btn-wrapper">

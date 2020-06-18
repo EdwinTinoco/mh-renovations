@@ -102,6 +102,16 @@
                opacity: 1;
                visibility: visible;
                transform: translateY(1rem);
+            }    
+            
+            .message-sent{
+               height: 60px;
+               text-align: center;
+
+               p{
+                  color: #273cb3;
+                  font-size: 1.5em;
+               }
             }
 
             .center-btn-wrapper {
