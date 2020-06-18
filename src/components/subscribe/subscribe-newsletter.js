@@ -51,7 +51,7 @@ export default class SubscribeNewsletter extends Component {
                <div className="icon">
                   <FontAwesomeIcon icon="envelope" />
                </div>
-               <h2>Sign Up to our NewsLetter</h2>
+               <h2>Sign Up to our Newsletter</h2>
             </div>
             <form onSubmit={this.handleSubmit} className="input-button-wrapper">
                <div className="name">
