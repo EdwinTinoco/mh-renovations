@@ -24,9 +24,11 @@ export default function Home() {
 
          <div className="some-categories-wrapper">
             <div className="category">
-               <div className="img">
-                  <img src={Kitchen1} />
-               </div>
+               <Link to="/kitchens">
+                  <div className="img">
+                     <img src={Kitchen1} />
+                  </div>
+               </Link>
                <div className="title">
                   <h2>Kitchens</h2>
                </div>
@@ -39,9 +41,11 @@ export default function Home() {
             </div>
 
             <div className="category">
-               <div className="img">
-                  <img src={Bathroom1} />
-               </div>
+               <Link to="/">
+                  <div className="img">
+                     <img src={Bathroom1} />
+                  </div>
+               </Link>
                <div className="title">
                   <h2>Bathrooms</h2>
                </div>
@@ -54,9 +58,11 @@ export default function Home() {
             </div>
 
             <div className="category">
-               <div className="img">
-                  <img src={Basement1} />
-               </div>
+               <Link to="/">
+                  <div className="img">
+                     <img src={Basement1} />
+                  </div>
+               </Link>
                <div className="title">
                   <h2>Basements</h2>
                </div>
@@ -69,9 +75,11 @@ export default function Home() {
             </div>
 
             <div className="category">
-               <div className="img">
-                  <img src={House1} />
-               </div>
+               <Link to="/">
+                  <div className="img">
+                     <img src={House1} />
+                  </div>
+               </Link>
                <div className="title">
                   <h2>Whole House</h2>
                </div>
