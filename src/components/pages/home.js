@@ -154,7 +154,7 @@ export default function Home() {
 
             <div className="brands-wrapper">
                <div className="title">
-                  <h2>Some brands We've been working...</h2>
+                  <h2>Some brands we've worked with...</h2>
                </div>
                <div className="brand-img-wrapper">
                   <div className="img">
