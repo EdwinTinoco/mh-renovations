@@ -19,7 +19,7 @@ export default function Kitchens() {
 
          <div className="contractors-info">
             <div className="title">
-               <h2>Family and Friends Owned and Operated for over 10 years</h2>
+               <h2>Kitchen Renovation Contractor</h2>
             </div>
             <div className="description">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis
@@ -101,9 +101,9 @@ export default function Kitchens() {
             <Link to="/get-quote">
                <div className="button">
                   <div className="icon">
-                     <FontAwesomeIcon icon="calculator" />
+                     <FontAwesomeIcon icon="phone" />
                   </div>
-                  Get a quote
+                  Let's talk about your project
                </div>
             </Link>
          </div>

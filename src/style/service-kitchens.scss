@@ -89,14 +89,14 @@
       }
 
       .button{     
-         width: 200px;
+         width: 320px;
          height: 55px;          
          background-color: #273cb3;
          border: 1px solid #273cb3;
-         padding: 1.2px 90px;
+         padding: 1.8px 70px;
          border-radius: 5px;
          color: whitesmoke;
-         font-size: 1.5em;
+         font-size: 1.3em;
          font-family: inherit;
          outline: none;
          transition: 0.3s ease-in-out;  
@@ -106,7 +106,7 @@
 
          .icon{
             margin-right: 15px;
-            font-size: 1em;
+            font-size: 1.5em;
          }
 
          &:hover{
