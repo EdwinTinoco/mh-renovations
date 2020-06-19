@@ -1,0 +1,45 @@
+.kitchens-main-wrapper{
+   .title-img{
+      background-image: url(../components/kitchens/images/kitchen003.jpg);
+      padding: 100px;
+      height: 35vh;
+      // background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   
+      .title{         
+         h1{
+            color: whitesmoke;
+            font-size: 3em;
+         }
+      }
+   }
+
+   .contractors-info{
+      background-color: #ecf0f1;
+      padding-top: 80px;
+      padding-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;     
+
+      .title h2{
+         font-size: 1.8em;
+      }
+
+      .description{
+         padding: 0px 120px;
+
+         p{
+            font-size: 1.3em;
+            color: #545454;
+         }
+      }
+   }
+}

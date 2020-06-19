@@ -36,7 +36,7 @@ export default function Home() {
                   <p>Description</p>
                </div>
                <div className="read-more">
-                  <a href="/">+ Read More</a>
+                  <a href="/kitchens">+ Read More</a>
                </div>
             </div>
 
