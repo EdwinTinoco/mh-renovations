@@ -1,0 +1,21 @@
+.portfolio-main-wrapper{
+   .title-img{
+      background-image: url(../components/kitchens/images/kitchen003.jpg);
+      padding: 100px;
+      height: 35vh;      
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   
+      .title{         
+         h1{
+            color: whitesmoke;
+            font-size: 3em;
+         }
+      }
+   }
+}
