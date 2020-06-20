@@ -9,30 +9,79 @@ export default class GetQuote extends Component {
         </div>
         <div className="quoteBody">
           <div className="quoteLeft">
+            <div>
+              <h1>Lets get Started</h1>
+            </div>
             <form className="quoteForm">
-              <div className="input-item">
-                <span>Name</span>
-                <input />
+              <div className="formGroup">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Name"
+                  name="name"
+                  required
+                />
+                <label htmlFor="name">Name</label>
               </div>
-              <div className="input-item">
-                <span>Email</span>
-                <input />
+              <div className="formGroup">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                  name="Email"
+                  required
+                />
+                <label htmlFor="email">Email</label>
               </div>
-              <div className="input-item">
-                <span>Telephone</span>
-                <input />
+              <div className="formGroup">
+                <input
+                  type="text"
+                  id="telephone"
+                  placeholder="Telephone"
+                  name="telephone"
+                  required
+                />
+                <label htmlFor="telephone">Telephone</label>
               </div>
-              <div className="input-item">
-                <span>Address</span>
-                <input />
+              <div className="formGroup">
+                <input
+                  type="text"
+                  id="address"
+                  placeholder="Address"
+                  name="address"
+                />
+                <label htmlFor="address">Address</label>
               </div>
-              <div className="input-item">
-                <span>City</span>
-                <input />
+              <div className="formGroup">
+                <input
+                  type="text"
+                  id="city"
+                  placeholder="City"
+                  name="city"
+                  required
+                />
+                <label htmlFor="city">City</label>
               </div>
-              <div className="input-item">
-                <span>Project Type</span>
-                <select name="projectType" placeholder="Select One">
+              <div className="formGroup">
+                <input
+                  type="text"
+                  id="budget"
+                  placeholder="What is your budget?"
+                  name="budget"
+                  required
+                />
+                <label htmlFor="budget">Budget</label>
+              </div>
+              <div className="formGroup">
+                <select
+                  name="projectType"
+                  placeholder="Select One"
+                  defaultValue=""
+                  required
+                >
+                  <option value="" disabled hidden>
+                    Project Type
+                  </option>
                   <option value="kitchen">Kitchen</option>
                   <option value="bathroom">Bathroom</option>
                   <option value="basement">Basement</option>
@@ -41,24 +90,33 @@ export default class GetQuote extends Component {
                   <option value="renovations">Renovations</option>
                   <option value="repairs">Repairs</option>
                 </select>
+                <label htmlFor="projectType">Project Type</label>
               </div>
-              <div className="input-item">
-                <span>What is your budget?</span>
-                <input />
-              </div>
-              <div className="input-item">
-                <span>How did you hear about us?</span>
-                <select name="hearAboutUs">
+
+              <div className="formGroup">
+                <select
+                  placeholder=""
+                  defaultValue=""
+                  name="hearAboutUs"
+                  required
+                >
+                  <option value="" disabled hidden>
+                    How did you hear about us?
+                  </option>
                   <option value="google">Google</option>
                   <option value="facebook">Facebook</option>
                   <option value="referral">Referral</option>
                   <option value="other">Other</option>
                 </select>
+                <label htmlFor="hearAboutUs">How did you hear about us?</label>
               </div>
-              <div className="submitButton">
-                <span>Your Message/comments</span>
-                <textarea name="text" />
-                <input type="submit" />
+              <div className="formGroup">
+                <textarea type="text" placeholder="Message" name="message" />
+                <label htmlFor="message">Message</label>
+              </div>
+
+              <div className="formGroup">
+                <button type="submit">Send</button>
               </div>
             </form>
           </div>
