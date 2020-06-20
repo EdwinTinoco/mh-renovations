@@ -10,43 +10,56 @@ export default class GetQuote extends Component {
         <div className="quoteBody">
           <div className="quoteLeft">
             <form className="quoteForm">
-              <span>Name</span>
-              <input />
-              <span>Email</span>
-              <input />
-              <span>Telephone</span>
-              <input />
-              <span>Address</span>
-              <input />
-
-              <span>City</span>
-              <input />
-
-              <span>Project Type</span>
-              <select name="projectType" placeholder="Select One">
-                <option value="kitchen">Kitchen</option>
-                <option value="bathroom">Bathroom</option>
-                <option value="basement">Basement</option>
-                <option value="wholeHouse">Whole House</option>
-                <option value="design">Design and Planning</option>
-                <option value="renovations">Renovations</option>
-                <option value="repairs">Repairs</option>
-              </select>
-
-              <span>What is your budget?</span>
-              <input />
-
-              <span>How did you hear about us?</span>
-              <select name="hearAboutUs">
-                <option value="google">Google</option>
-                <option value="facebook">Facebook</option>
-                <option value="referral">Referral</option>
-                <option value="other">Other</option>
-              </select>
-
-              <span>Your Message/comments</span>
-              <textarea name="text" />
-              <input type="submit" />
+              <div className="input-item">
+                <span>Name</span>
+                <input />
+              </div>
+              <div className="input-item">
+                <span>Email</span>
+                <input />
+              </div>
+              <div className="input-item">
+                <span>Telephone</span>
+                <input />
+              </div>
+              <div className="input-item">
+                <span>Address</span>
+                <input />
+              </div>
+              <div className="input-item">
+                <span>City</span>
+                <input />
+              </div>
+              <div className="input-item">
+                <span>Project Type</span>
+                <select name="projectType" placeholder="Select One">
+                  <option value="kitchen">Kitchen</option>
+                  <option value="bathroom">Bathroom</option>
+                  <option value="basement">Basement</option>
+                  <option value="wholeHouse">Whole House</option>
+                  <option value="design">Design and Planning</option>
+                  <option value="renovations">Renovations</option>
+                  <option value="repairs">Repairs</option>
+                </select>
+              </div>
+              <div className="input-item">
+                <span>What is your budget?</span>
+                <input />
+              </div>
+              <div className="input-item">
+                <span>How did you hear about us?</span>
+                <select name="hearAboutUs">
+                  <option value="google">Google</option>
+                  <option value="facebook">Facebook</option>
+                  <option value="referral">Referral</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div className="submitButton">
+                <span>Your Message/comments</span>
+                <textarea name="text" />
+                <input type="submit" />
+              </div>
             </form>
           </div>
           <div className="quoteRight">

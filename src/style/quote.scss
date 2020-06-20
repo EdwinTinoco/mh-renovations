@@ -4,6 +4,12 @@
 
   .quoteLeft {
     margin: 2rem;
+
+    .quoteForm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
   .quoteRight {
     margin: 2rem;
