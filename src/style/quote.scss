@@ -1,0 +1,22 @@
+.quoteBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .quoteLeft {
+    margin: 2rem;
+
+    .quoteForm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  .quoteRight {
+    margin: 2rem;
+  }
+}
+
+.quoteForm {
+  display: flex;
+  flex-direction: column;
+}
