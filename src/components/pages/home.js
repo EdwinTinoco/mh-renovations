@@ -24,7 +24,7 @@ export default function Home() {
 
          <div className="some-categories-wrapper">
             <div className="category">
-               <Link to="/kitchens">
+               <Link to="/service/kitchens">
                   <div className="img">
                      <img src={Kitchen1} />
                   </div>
@@ -36,7 +36,7 @@ export default function Home() {
                   <p>Description</p>
                </div>
                <div className="read-more">
-                  <a href="/kitchens">+ Read More</a>
+                  <a href="/service/kitchens">+ Read More</a>
                </div>
             </div>
 
