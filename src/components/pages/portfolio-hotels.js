@@ -38,6 +38,42 @@ export default function PortfolioHotels() {
                </div>
 
                <div className="read-more">
+                  <Link to="/portfolio/hotel/common-areas">Front Desk</Link>
+               </div>
+            </div>
+
+            <div className="square">
+               <div className="img">
+                  <Link to="/portfolio/hotel/common-areas">
+                     <img src={Kitchen002} />
+                  </Link>
+               </div>
+
+               <div className="read-more">
+                  <Link to="/portfolio/hotel/common-areas">Guest Rooms</Link>
+               </div>
+            </div>
+
+            <div className="square">
+               <div className="img">
+                  <Link to="/portfolio/hotel/common-areas">
+                     <img src={Kitchen002} />
+                  </Link>
+               </div>
+
+               <div className="read-more">
+                  <Link to="/portfolio/hotel/common-areas">Back Office</Link>
+               </div>
+            </div>
+
+            <div className="square">
+               <div className="img">
+                  <Link to="/portfolio/hotel/common-areas">
+                     <img src={Kitchen002} />
+                  </Link>
+               </div>
+
+               <div className="read-more">
                   <Link to="/portfolio/hotel/common-areas">Common Areas</Link>
                </div>
             </div>
