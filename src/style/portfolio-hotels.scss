@@ -11,6 +11,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
       &:before{
          content:'';
@@ -69,6 +70,29 @@
                   color: black;
                }
             }  
+         }
+      }
+   }
+
+   .brands-wrapper{    
+      padding: 50px 0px 70px 0px; 
+      background-color: #ecf0f1;    
+      text-align: center;
+
+      .title h2{
+         margin-bottom: 40px;
+         color: #1452c5;
+      }
+
+      .brand-img-wrapper{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;         
+
+         .img img{
+            width: 12vw;
+            height: 12vh;
+            border-radius: 5px;
          }
       }
    }
