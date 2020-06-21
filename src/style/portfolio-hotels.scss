@@ -1,0 +1,74 @@
+.portfolio-main-wrapper{
+   .title-img{
+      background-image: url(../components/kitchens/images/kitchen003.jpg);
+      padding: 100px;
+      height: 35vh;      
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;  
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &:before{
+         content:'';
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background-color: rgba(0,0,0,0.4);
+      }
+   
+      .title{         
+         h1{
+            color: #fff;
+            font-size: 3em;
+            position: relative;
+            font-family: inherit;
+         }
+      }
+   }
+
+   .squares-wrapper{
+      padding: 60px 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+
+      .square{
+         text-align: center;        
+
+         .img{
+            img{
+               border-radius: 3px;
+               width: 40vw;
+               height: 39vh;
+               transition: transform 0.3s;
+      
+               &:hover{
+                  -ms-transform: scale(1.05); /* IE 9 */
+                  -webkit-transform: scale(1.05); /* Safari 3-8 */
+                  transform: scale(1.05); 
+               }
+            }            
+         }
+
+         .read-more{
+            margin-top: 10px;  
+            a{                        
+               text-decoration: none;
+               color: #cc2f2f;
+               font-size: 1.5em;
+               transition: 0.3s ease-in-out;
+      
+               &:hover{            
+                  color: black;
+               }
+            }  
+         }
+      }
+   }
+}
