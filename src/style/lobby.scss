@@ -10,7 +10,7 @@
    
          .left-column{
             text-align: center;
-            
+
             .images{
                display: grid;
                grid-template-columns: 1fr 1fr;
@@ -19,6 +19,18 @@
                   height: 30vh;
                   width: 20vw;
                }
+            }
+         }
+      }
+
+      .images-project{
+         .images{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            img{
+               height: 20vh;
+               width: 15vw;
             }
          }
       }
