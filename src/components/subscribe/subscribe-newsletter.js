@@ -57,19 +57,21 @@ export default class SubscribeNewsletter extends Component {
                <div className="name">
                   <input
                      type="text"
-                     placeholder="Name (required)"
+                     placeholder="Name"
                      name="name"
                      value={this.state.name}
                      onChange={this.handleChange}
+                     required
                   />
                </div>
                <div className="email">
                   <input
                      type="email"
-                     placeholder="Email (required)"
+                     placeholder="Email"
                      name="email"
                      value={this.state.email}
                      onChange={this.handleChange}
+                     required
                   />
                </div>
                <div className="button">

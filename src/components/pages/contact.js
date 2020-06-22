@@ -43,7 +43,7 @@ export default class ContactUs extends Component {
 
       if (this.state.name == "" || this.state.email == "" || this.state.message == "") {
          this.setState({
-            errorMessage: "Should type name, email and message at least!",
+            errorMessage: "Name, Email and Message are required",
             showErrorMessage: "block"
          })
       } else {
@@ -94,24 +94,24 @@ export default class ContactUs extends Component {
                         <input
                            type="text"
                            id="name"
-                           placeholder="Name"
+                           placeholder="*Name"
                            name="name"
                            value={this.state.name}
                            onChange={this.handleChange}
                         />
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">*Name</label>
                      </div>
 
                      <div className="form-group">
                         <input
                            type="email"
                            id="email"
-                           placeholder="Email"
+                           placeholder="*Email"
                            name="email"
                            value={this.state.email}
                            onChange={this.handleChange}
                         />
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">*Email</label>
                      </div>
 
                      <div className="form-group">
@@ -129,12 +129,12 @@ export default class ContactUs extends Component {
                      <div className="form-group">
                         <textarea
                            id="message"
-                           placeholder="Message"
+                           placeholder="*Message"
                            name="message"
                            value={this.state.message}
                            onChange={this.handleChange}
                         />
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">*Message</label>
                      </div>
 
                      <div className="message-sent">
