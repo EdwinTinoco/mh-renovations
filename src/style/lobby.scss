@@ -1,0 +1,26 @@
+.lobby-main-wrapper{
+   .title-lobby{
+      text-align: center;
+   }
+
+   .content{
+      .images-details{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+   
+         .left-column{
+            text-align: center;
+            
+            .images{
+               display: grid;
+               grid-template-columns: 1fr 1fr;
+   
+               img{
+                  height: 30vh;
+                  width: 20vw;
+               }
+            }
+         }
+      }
+   }
+}
