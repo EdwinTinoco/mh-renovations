@@ -141,24 +141,39 @@
          background-attachment: fixed;
          background-position: center;
          background-repeat: no-repeat;
-         background-size: cover;  
+         background-size: cover; 
+         position: relative; 
          display: flex;
          flex-direction: column;
          justify-content: center;
          align-items: center;
+
+         &:before{
+            content:'';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0,0.4);
+         }
          
 
          .title h1{
-            color: whitesmoke;
+            color: #fff;
             font-size: 3.5em;
+            position: relative;
+            font-family: inherit;
          }
 
          .description{
             padding: 0px 60px;
             p{
-               color: whitesmoke;
+               color: #fff;
                font-size: 1.5em;
                font-weight: bold;
+               position: relative;
+               font-family: inherit;
             }
          }
 
@@ -168,6 +183,7 @@
             align-items: center;
             width: 380px;
             height: 55px;
+            position: relative;
             border: 1.5px solid whitesmoke;
             border-radius: 5px;
             transition: 0.3s ease-in-out;
