@@ -34,19 +34,19 @@ export default function PortfolioHotels() {
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/hotels/lobby">Lobby</Link>
+                  <Link to="/portfolio/hotel-lobby">Lobby</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/hotels/lobby">
+                  <Link to="/portfolio/hotel-guest-room">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/hotels/lobby">Front Desk</Link>
+                  <Link to="/portfolio/hotel-guest-room">Guest Room</Link>
                </div>
             </div>
 

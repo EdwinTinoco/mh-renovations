@@ -5,11 +5,11 @@ import Kitchen002 from "../kitchens/images/kitchen002.jpg"
 import Kitchen004 from "../kitchens/images/kitchen004.jpg"
 import Kitchen005 from "../kitchens/images/kitchen005.jpg"
 
-export default function Lobby() {
+export default function GuestRoom() {
    return (
       <div className="lobby-main-wrapper">
          <div className="main-title">
-            <h1>Lobbies</h1>
+            <h1>Guest Rooms</h1>
          </div>
 
          <div className="content">

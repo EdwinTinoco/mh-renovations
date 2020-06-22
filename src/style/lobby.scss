@@ -1,9 +1,22 @@
 .lobby-main-wrapper{
-   .title-lobby{
-      text-align: center;
+   .main-title{
+      background-color: #ecf0f1;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);      
+
+      h1{
+         font-size: 1.5em;
+      }
    }
 
    .content{
+      .title-lobby{
+         text-align: center;
+      }
+
       .images-details{
          display: grid;
          grid-template-columns: 1fr 1fr;

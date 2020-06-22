@@ -8,6 +8,7 @@ import About from "./pages/aboutUs.js";
 import ServiceKitchens from "./pages/service-kitchens.js";
 import PortfolioHotels from "./pages/portfolio-hotels.js";
 import Lobby from "./portfolio/lobby";
+import GuestRoom from "./portfolio/guest-room";
 import ContactUs from "./pages/contact";
 import GetQuote from "./pages/get-quote";
 import Footer from "./footer/footer";
@@ -31,6 +32,7 @@ export default class App extends Component {
 
             <Route path="/portfolio/hotels" component={PortfolioHotels} />
             <Route path="/portfolio/hotel-lobby" component={Lobby} />
+            <Route path="/portfolio/hotel-guest-room" component={GuestRoom} />
 
 
             <Route path="/contact" component={ContactUs} />
