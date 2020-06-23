@@ -13,7 +13,7 @@ export default function GuestRoom() {
          </div>
 
          <div className="content">
-            <div className="title-lobby">
+            <div className="title-project">
                <h1>SpringHill Hotel Lobby</h1>
             </div>
             <div className="images-details">
@@ -60,7 +60,7 @@ export default function GuestRoom() {
          </div>
          <hr />
          <div className="content">
-            <div className="title-lobby">
+            <div className="title-project">
                <h1>SpringHill Hotel Lobby</h1>
             </div>
             <div className="images-details">
