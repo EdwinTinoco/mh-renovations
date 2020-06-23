@@ -1,11 +1,77 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default class GetQuote extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      name: "",
+      email: "",
+      telephone: "",
+      address: "",
+      city: "",
+      budget: "",
+      projectType: "",
+      hearAboutUS: "",
+      message: "",
+      replyTo: "edwin2891@hotmail.com",
+      errorMessage: "",
+      showErrorMessage: "none",
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(e) {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+
+    if (
+      this.state.name == "" ||
+      this.state.email == "" ||
+      this.state.message == ""
+    ) {
+      this.setState({
+        errorMessage: "Name, Email and Message are required",
+        showErrorMessage: "block",
+      });
+    } else {
+      let service_id = "gmail";
+      let template_id = "contact_template";
+      let user_id = "user_4F9p2P6OXkAqnr87vVSVS";
+
+      emailjs.send(service_id, template_id, this.state, user_id).then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          this.setState({
+            name: "",
+            email: "",
+            phone: "",
+            message: "",
+            errorMessage: "Message has been sent!",
+            showErrorMessage: "block",
+          });
+        },
+        (err) => {
+          console.log("FAILED...", err);
+        }
+      );
+    }
+  }
   render() {
     return (
       <div className="quoteWrapper">
         <div className="quoteHeader">
-          <h1>Quote</h1>
+          <div className="title">
+            <h1>Quote</h1>
+          </div>
         </div>
         <div className="quoteBody">
           <div className="quoteLeft">
@@ -19,6 +85,8 @@ export default class GetQuote extends Component {
                   id="name"
                   placeholder="Name"
                   name="name"
+                  value={this.state.name}
+                  onChange={this.handleChange}
                   required
                 />
                 <label htmlFor="name">Name</label>
@@ -29,6 +97,8 @@ export default class GetQuote extends Component {
                   id="email"
                   placeholder="Email"
                   name="Email"
+                  value={this.state.email}
+                  onChange={this.handleChange}
                   required
                 />
                 <label htmlFor="email">Email</label>
@@ -39,6 +109,8 @@ export default class GetQuote extends Component {
                   id="telephone"
                   placeholder="Telephone"
                   name="telephone"
+                  value={this.state.telephone}
+                  onChange={this.handleChange}
                   required
                 />
                 <label htmlFor="telephone">Telephone</label>
@@ -49,6 +121,8 @@ export default class GetQuote extends Component {
                   id="address"
                   placeholder="Address"
                   name="address"
+                  value={this.state.address}
+                  onChange={this.handleChange}
                 />
                 <label htmlFor="address">Address</label>
               </div>
@@ -58,6 +132,8 @@ export default class GetQuote extends Component {
                   id="city"
                   placeholder="City"
                   name="city"
+                  value={this.state.city}
+                  onChange={this.handleChange}
                   required
                 />
                 <label htmlFor="city">City</label>
@@ -68,6 +144,8 @@ export default class GetQuote extends Component {
                   id="budget"
                   placeholder="What is your budget?"
                   name="budget"
+                  value={this.state.budget}
+                  onChange={this.handleChange}
                   required
                 />
                 <label htmlFor="budget">Budget</label>
@@ -77,6 +155,8 @@ export default class GetQuote extends Component {
                   name="projectType"
                   placeholder="Select One"
                   defaultValue=""
+                  value={this.state.projectType}
+                  onChange={this.handleChange}
                   required
                 >
                   <option value="" disabled hidden>
@@ -98,6 +178,8 @@ export default class GetQuote extends Component {
                   placeholder=""
                   defaultValue=""
                   name="hearAboutUs"
+                  value={this.state.hearAboutUs}
+                  onChange={this.handleChange}
                   required
                 >
                   <option value="" disabled hidden>
@@ -111,22 +193,42 @@ export default class GetQuote extends Component {
                 <label htmlFor="hearAboutUs">How did you hear about us?</label>
               </div>
               <div className="formGroup">
-                <textarea type="text" placeholder="Message" name="message" />
+                <textarea
+                  type="text"
+                  placeholder="Message"
+                  name="message"
+                  value={this.state.message}
+                  onChange={this.handleChange}
+                />
                 <label htmlFor="message">Message</label>
               </div>
 
-              <div className="formGroup">
-                <button type="submit">Send</button>
+              <div className="centerBtn">
+                <button type="submit" className="btn">
+                  Send
+                </button>
               </div>
             </form>
           </div>
           <div className="quoteRight">
-            <h2>Contact Us</h2>
-            <h4>We would love to hear about your next project</h4>
-            <h6>Give us a call</h6>
-            <p>
-              Salt Lake City - <b>999-999-9999</b>
-            </p>
+            <div className="title">
+              <h2>Contact Us</h2>
+              <p>We would love to hear about your next project.</p>
+              <p>
+                <b>Give us a call.</b>
+              </p>
+            </div>
+
+            <div className="phone-number">
+              (555) 555-5555 <br />
+              (555) 555-5555
+            </div>
+
+            <div className="email">
+              <p>ejemplo@gmail.com</p>
+            </div>
+
+            <hr />
           </div>
         </div>
       </div>

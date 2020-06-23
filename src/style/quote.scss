@@ -6,14 +6,20 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-    h1 {
-      display: block;
-      font-size: 2rem;
-      margin-block-start: 0.67em;
-      margin-block-end: 0.67em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      font-weight: bold;
+    .title {
+      font-size: 1.5em;
+      h1 {
+        display: block;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        // font-family: "Roboto", sans-serif;
+        font-family: inherit;
+        color: #545454;
+        font-size: 2em;
+      }
     }
   }
   .quoteBody {
@@ -41,8 +47,8 @@
         .formGroup {
           display: flex;
           flex-direction: column;
-          margin-top: 30px;
-          margin-bottom: 30px;
+          margin-top: 15px;
+          margin-bottom: 15px;
           input {
             font-size: 1.2em;
             font-family: inherit;
@@ -69,14 +75,16 @@
             padding: 0.5em 1.4em;
             border-radius: 3px;
             border: 1px solid #11122b;
-            width: 85%;
+            width: 93%;
             display: block;
             transition: all 0.3s;
           }
           textarea {
             height: 15rem;
-            width: 100%;
-            font-size: 2em;
+            width: 85%;
+            font-size: 1.2em;
+            font-family: inherit;
+            padding: 1em;
           }
           &:focus {
             outline: none;
@@ -134,10 +142,59 @@
             }
           }
         }
+        .centerBtn {
+          display: flex;
+          justify-content: center;
+
+          .btn {
+            background-color: #273cb3;
+            color: whitesmoke;
+            font-size: 1.5em;
+            font-family: inherit;
+            padding: 15px 80px;
+            border: 1px solid #273cb3;
+            border-radius: 5px;
+            outline: none;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+              cursor: pointer;
+              background-color: #5762a3;
+              border: 1px solid #5762a3;
+            }
+
+            &:active {
+              box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+            }
+          }
+        }
       }
     }
     .quoteRight {
-      margin: 2rem;
+      margin-left: 1em;
+      margin-right: 1em;
+      .title {
+        h2 {
+          text-align: left;
+          color: #1452c5;
+          font-weight: bold;
+          font-size: 2em;
+        }
+        p {
+          font-size: 1.8em;
+        }
+      }
+      .phone-number {
+        font-size: 1.8em;
+        text-align: center;
+        font-weight: bolder;
+        color: #1452c5;
+      }
+      .email {
+        font-size: 1.8em;
+        text-align: center;
+        font-weight: bolder;
+      }
     }
   }
 }
