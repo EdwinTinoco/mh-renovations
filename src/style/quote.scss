@@ -8,6 +8,14 @@
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
     .title {
       font-size: 1.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .icon {
+        font-size: 2.5em;
+        color: #1452c5;
+        margin-right: 15px;
+      }
       h1 {
         display: block;
         margin-block-start: 0.67em;
@@ -173,6 +181,14 @@
     .quoteRight {
       margin-left: 1em;
       margin-right: 1em;
+      .rightWrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+
       .title {
         h2 {
           text-align: left;

@@ -70,6 +70,9 @@ export default class GetQuote extends Component {
       <div className="quoteWrapper">
         <div className="quoteHeader">
           <div className="title">
+            <div className="icon">
+              <FontAwesomeIcon icon="phone" />
+            </div>
             <h1>Quote</h1>
           </div>
         </div>
@@ -154,7 +157,6 @@ export default class GetQuote extends Component {
                 <select
                   name="projectType"
                   placeholder="Select One"
-                  defaultValue=""
                   value={this.state.projectType}
                   onChange={this.handleChange}
                   required
@@ -175,9 +177,8 @@ export default class GetQuote extends Component {
 
               <div className="formGroup">
                 <select
-                  placeholder=""
-                  defaultValue=""
                   name="hearAboutUs"
+                  placeholder=""
                   value={this.state.hearAboutUs}
                   onChange={this.handleChange}
                   required
@@ -211,24 +212,26 @@ export default class GetQuote extends Component {
             </form>
           </div>
           <div className="quoteRight">
-            <div className="title">
-              <h2>Contact Us</h2>
-              <p>We would love to hear about your next project.</p>
-              <p>
-                <b>Give us a call.</b>
-              </p>
-            </div>
+            <div className="rightWrapper">
+              <div className="title">
+                <h2>Contact Us</h2>
+                <p>We would love to hear about your next project.</p>
+                <p>
+                  <b>Give us a call.</b>
+                </p>
+              </div>
 
-            <div className="phone-number">
-              (555) 555-5555 <br />
-              (555) 555-5555
-            </div>
+              <div className="phone-number">
+                (555) 555-5555 <br />
+                (555) 555-5555
+              </div>
 
-            <div className="email">
-              <p>ejemplo@gmail.com</p>
-            </div>
+              <div className="email">
+                <p>ejemplo@gmail.com</p>
+              </div>
 
-            <hr />
+              <hr />
+            </div>
           </div>
         </div>
       </div>
