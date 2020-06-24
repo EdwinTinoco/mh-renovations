@@ -13,7 +13,7 @@ export default class GetQuote extends Component {
       city: "",
       budget: "",
       projectType: "",
-      hearAboutUS: "",
+      hearAboutUs: "",
       message: "",
       replyTo: "edwin2891@hotmail.com",
       errorMessage: "",
@@ -71,7 +71,7 @@ export default class GetQuote extends Component {
         <div className="quoteHeader">
           <div className="title">
             <div className="icon">
-              <FontAwesomeIcon icon="phone" />
+              <FontAwesomeIcon icon="calculator" />
             </div>
             <h1>Quote</h1>
           </div>
@@ -156,12 +156,11 @@ export default class GetQuote extends Component {
               <div className="formGroup">
                 <select
                   name="projectType"
-                  placeholder="Select One"
                   value={this.state.projectType}
                   onChange={this.handleChange}
                   required
                 >
-                  <option value="" disabled hidden>
+                  <option value="" disabled>
                     Project Type
                   </option>
                   <option value="kitchen">Kitchen</option>
@@ -178,12 +177,11 @@ export default class GetQuote extends Component {
               <div className="formGroup">
                 <select
                   name="hearAboutUs"
-                  placeholder=""
                   value={this.state.hearAboutUs}
                   onChange={this.handleChange}
                   required
                 >
-                  <option value="" disabled hidden>
+                  <option value="" disabled>
                     How did you hear about us?
                   </option>
                   <option value="google">Google</option>
