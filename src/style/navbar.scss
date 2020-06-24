@@ -3,14 +3,18 @@
   grid-template-columns: 1fr 2fr;
   background-color: white;
 }
+
 .leftColumn {
   display: flex;
   justify-content: center;
-
-  img{
-    width: 10vw;
-    height: 7vh;
- }
+  a {
+    display: flex;
+    justify-content: flex-end;
+    img {
+      width: 50%;
+      height: auto;
+    }
+  }
 }
 .rightColumn {
   display: flex;
@@ -21,11 +25,14 @@
   background-color: transparent;
   color: black;
   padding: 16px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border: none;
+  transition: ease-in-out;
+  cursor: pointer;
+  outline: none;
 }
 .dropbtn:hover {
-  color: blue;
+  color: #1452c5;
 }
 
 .dropdown {
@@ -40,7 +47,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  border-top: 0.5rem solid blue;
+  border-top: 0.5rem solid #1452c5;
 }
 
 .dropdown-content a {

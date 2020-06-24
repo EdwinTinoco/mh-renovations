@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import image1 from "../../../static/assets/images/aboutUs/aboutUs1.png";
 import profile1 from "../../../static/assets/images/aboutUs/profile1.png";
 export default class About extends Component {
   render() {
     return (
       <div className="aboutUs-wrapper">
-        <div id="aboutUs-header">
-          <img src={image1} alt="saw" />
+        <div className="aboutUs-header">
           <div className="header-text-wrapper">
             <h1>Who We Are</h1>
           </div>

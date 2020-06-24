@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom"
-import Logo from "../../../static/assets/images/logo/mh_logo2.png"
+import { Link } from "react-router-dom";
+import Logo from "../../../static/assets/images/logo/mh_logo2.png";
 
 export default class Navbar extends Component {
   render() {
