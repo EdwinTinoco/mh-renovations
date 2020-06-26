@@ -7,6 +7,8 @@ import Home from "./pages/home";
 import About from "./pages/aboutUs.js";
 import ServiceKitchens from "./pages/service-kitchens.js";
 import PortfolioHotels from "./pages/portfolio-hotels.js";
+import Lobby from "./portfolio/lobby";
+import GuestRoom from "./portfolio/guest-room";
 import ContactUs from "./pages/contact";
 import GetQuote from "./pages/get-quote";
 import Footer from "./footer/footer";
@@ -25,9 +27,14 @@ export default class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/service/kitchens" component={ServiceKitchens} />
-            <Route exact path="/portfolio/hotels" component={PortfolioHotels} />
+            <Route path="/about" component={About} />
+            <Route path="/service/kitchens" component={ServiceKitchens} />
+
+            <Route path="/portfolio/hotels" component={PortfolioHotels} />
+            <Route path="/portfolio/hotel-lobby" component={Lobby} />
+            <Route path="/portfolio/hotel-guest-room" component={GuestRoom} />
+
+
             <Route path="/contact" component={ContactUs} />
             <Route path="/get-quote" component={GetQuote} />
           </Switch>

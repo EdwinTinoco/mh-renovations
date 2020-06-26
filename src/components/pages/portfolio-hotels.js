@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -15,6 +15,7 @@ import SleepInn from "../home/brands/sleep-inn.png"
 import SpringHill from "../home/brands/springhill.png"
 
 export default function PortfolioHotels() {
+   const [option, setOption] = useState("lobby")
    return (
       <div className="portfolio-main-wrapper">
          <div className="title-img">
@@ -27,25 +28,25 @@ export default function PortfolioHotels() {
             <div className="square">
 
                <div className="img">
-                  <Link to="/portfolio/hotel/lobby">
+                  <Link to="/portfolio/hotel-lobby">
                      <img src={Kitchen001} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/hotel/lobby">Lobby</Link>
+                  <Link to="/portfolio/hotel-lobby">Lobby</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/hotel/common-areas">
+                  <Link to="/portfolio/hotel-guest-room">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/hotel/common-areas">Front Desk</Link>
+                  <Link to="/portfolio/hotel-guest-room">Guest Room</Link>
                </div>
             </div>
 
