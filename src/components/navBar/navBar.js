@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../../../static/assets/images/logo/mh_logo2.png";
 
 export default class Navbar extends Component {
@@ -7,9 +7,9 @@ export default class Navbar extends Component {
     return (
       <div className="nav">
         <div className="leftColumn">
-          <Link to="/">
+          <NavLink to="/">
             <img src={Logo} />
-          </Link>
+          </NavLink>
         </div>
 
         <div className="rightColumn">
@@ -17,34 +17,48 @@ export default class Navbar extends Component {
             <div className="dropdown">
               <button className="dropbtn">About Us</button>
               <div className="dropdown-content">
-                <Link to="/about">Who we are</Link>
+                <NavLink to="/about" activeClassName="activeNav">
+                  Who we are
+                </NavLink>
               </div>
             </div>
             <div className="dropdown">
               <button className="dropbtn">Services</button>
               <div className="dropdown-content">
-                <Link to="/service/kitchens">Kitchens</Link>
-                <Link to="/">Link 2</Link>
-                <Link to="/">Link 3</Link>
-                <Link to="/">Link 4</Link>
+                <NavLink to="/service/kitchens" activeClassName="activeNav">
+                  Kitchens
+                </NavLink>
+                <NavLink to="/" activeClassName="activeNav">
+                  NavLink 2
+                </NavLink>
+                <NavLink to="/" activeClassName="activeNav">
+                  NavLink 3
+                </NavLink>
+                <NavLink to="/" activeClassName="activeNav">
+                  NavLink 4
+                </NavLink>
               </div>
             </div>
             <div className="dropdown">
               <button className="dropbtn">Projects</button>
               <div className="dropdown-content">
-                <Link to="/portfolio/hotels">Hotels</Link>
-                <Link to="/">Residencies</Link>
+                <NavLink to="/portfolio/hotels" activeClassName="activeNav">
+                  Hotels
+                </NavLink>
+                <NavLink to="/getquote" activeClassName="activeNav">
+                  Residencies
+                </NavLink>
               </div>
             </div>
             <div className="dropdown">
-              <Link to="/contact">
+              <NavLink to="/contact" activeClassName="activeNav">
                 <button className="dropbtn">Contact Us</button>
-              </Link>
+              </NavLink>
             </div>
             <div className="dropdown">
-              <Link to="/get-quote">
+              <NavLink to="/get-quote" activeClassName="activeNav">
                 <button className="dropbtn">Get a Quote</button>
-              </Link>
+              </NavLink>
             </div>
           </div>
         </div>
