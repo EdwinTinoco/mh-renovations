@@ -23,141 +23,151 @@ export default function Home() {
          <CarouselComponent />
 
          <div className="some-categories-wrapper">
-            <div className="category">
-               <Link to="/service/kitchens">
-                  <div className="img">
-                     <img src={Kitchen1} />
-                  </div>
-               </Link>
-               <div className="title">
-                  <h2>Kitchens</h2>
-               </div>
-               <div className="description">
-                  <p>Description</p>
-               </div>
-               <div className="read-more">
-                  <a href="/service/kitchens">+ Read More</a>
-               </div>
+            <div className="title">
+               <h1>Hotels</h1>
             </div>
-
-            <div className="category">
-               <Link to="/">
-                  <div className="img">
-                     <img src={Bathroom1} />
+            <div className="categories">
+               <div className="category">
+                  <Link to="/service/kitchens">
+                     <div className="img">
+                        <img src={Kitchen1} />
+                     </div>
+                  </Link>
+                  <div className="title">
+                     <h2>Lobby</h2>
                   </div>
-               </Link>
-               <div className="title">
-                  <h2>Bathrooms</h2>
-               </div>
-               <div className="description">
-                  <p>Description</p>
-               </div>
-               <div className="read-more">
-                  <a href="/">+ Read More</a>
-               </div>
-            </div>
-
-            <div className="category">
-               <Link to="/">
-                  <div className="img">
-                     <img src={Basement1} />
+                  <div className="description">
+                     <p>Description</p>
                   </div>
-               </Link>
-               <div className="title">
-                  <h2>Basements</h2>
-               </div>
-               <div className="description">
-                  <p>Description</p>
-               </div>
-               <div className="read-more">
-                  <a href="/">+ Read More</a>
-               </div>
-            </div>
-
-            <div className="category">
-               <Link to="/">
-                  <div className="img">
-                     <img src={House1} />
+                  <div className="read-more">
+                     <a href="/service/kitchens">+ Read More</a>
                   </div>
-               </Link>
-               <div className="title">
-                  <h2>Whole House</h2>
                </div>
-               <div className="description">
-                  <p>Description</p>
+
+               <div className="category">
+                  <Link to="/">
+                     <div className="img">
+                        <img src={Bathroom1} />
+                     </div>
+                  </Link>
+                  <div className="title">
+                     <h2>Breakfast Area</h2>
+                  </div>
+                  <div className="description">
+                     <p>Description</p>
+                  </div>
+                  <div className="read-more">
+                     <a href="/">+ Read More</a>
+                  </div>
                </div>
-               <div className="read-more">
-                  <a href="/">+ Read More</a>
+
+               <div className="category">
+                  <Link to="/">
+                     <div className="img">
+                        <img src={Basement1} />
+                     </div>
+                  </Link>
+                  <div className="title">
+                     <h2>Common Areas</h2>
+                  </div>
+                  <div className="description">
+                     <p>Description</p>
+                  </div>
+                  <div className="read-more">
+                     <a href="/">+ Read More</a>
+                  </div>
+               </div>
+
+               <div className="category">
+                  <Link to="/">
+                     <div className="img">
+                        <img src={House1} />
+                     </div>
+                  </Link>
+                  <div className="title">
+                     <h2>Guest Room</h2>
+                  </div>
+                  <div className="description">
+                     <p>Description</p>
+                  </div>
+                  <div className="read-more">
+                     <a href="/">+ Read More</a>
+                  </div>
                </div>
             </div>
          </div>
 
          <div className="some-categories-wrapper">
-            <div className="category">
-               <Link to="/service/kitchens">
-                  <div className="img">
-                     <img src={Kitchen1} />
-                  </div>
-               </Link>
-               <div className="title">
-                  <h2>Kitchens</h2>
-               </div>
-               <div className="description">
-                  <p>Description</p>
-               </div>
-               <div className="read-more">
-                  <a href="/service/kitchens">+ Read More</a>
-               </div>
+            <div className="title">
+               <h1>Residency</h1>
             </div>
-
-            <div className="category">
-               <Link to="/">
-                  <div className="img">
-                     <img src={Bathroom1} />
+            <div className="categories">
+               <div className="category">
+                  <Link to="/service/kitchens">
+                     <div className="img">
+                        <img src={Kitchen1} />
+                     </div>
+                  </Link>
+                  <div className="title">
+                     <h2>Kitchens</h2>
                   </div>
-               </Link>
-               <div className="title">
-                  <h2>Bathrooms</h2>
-               </div>
-               <div className="description">
-                  <p>Description</p>
-               </div>
-               <div className="read-more">
-                  <a href="/">+ Read More</a>
-               </div>
-            </div>
-
-            <div className="category">
-               <Link to="/">
-                  <div className="img">
-                     <img src={Basement1} />
+                  <div className="description">
+                     <p>Description</p>
                   </div>
-               </Link>
-               <div className="title">
-                  <h2>Basements</h2>
-               </div>
-               <div className="description">
-                  <p>Description</p>
-               </div>
-               <div className="read-more">
-                  <a href="/">+ Read More</a>
-               </div>
-            </div>
-
-            <div className="category">
-               <Link to="/">
-                  <div className="img">
-                     <img src={House1} />
+                  <div className="read-more">
+                     <a href="/service/kitchens">+ Read More</a>
                   </div>
-               </Link>
-               <div className="title">
-                  <h2>Whole House</h2>
                </div>
-               <div className="description">
-                  <p>Description</p>
+
+               <div className="category">
+                  <Link to="/">
+                     <div className="img">
+                        <img src={Bathroom1} />
+                     </div>
+                  </Link>
+                  <div className="title">
+                     <h2>Bathrooms</h2>
+                  </div>
+                  <div className="description">
+                     <p>Description</p>
+                  </div>
+                  <div className="read-more">
+                     <a href="/">+ Read More</a>
+                  </div>
                </div>
-               <div className="read-more">
-                  <a href="/">+ Read More</a>
+
+               <div className="category">
+                  <Link to="/">
+                     <div className="img">
+                        <img src={Basement1} />
+                     </div>
+                  </Link>
+                  <div className="title">
+                     <h2>Basements</h2>
+                  </div>
+                  <div className="description">
+                     <p>Description</p>
+                  </div>
+                  <div className="read-more">
+                     <a href="/">+ Read More</a>
+                  </div>
+               </div>
+
+               <div className="category">
+                  <Link to="/">
+                     <div className="img">
+                        <img src={House1} />
+                     </div>
+                  </Link>
+                  <div className="title">
+                     <h2>Whole House</h2>
+                  </div>
+                  <div className="description">
+                     <p>Description</p>
+                  </div>
+                  <div className="read-more">
+                     <a href="/">+ Read More</a>
+                  </div>
                </div>
             </div>
          </div>
