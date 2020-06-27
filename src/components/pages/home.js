@@ -92,13 +92,83 @@ export default function Home() {
             </div>
          </div>
 
+         <div className="some-categories-wrapper">
+            <div className="category">
+               <Link to="/service/kitchens">
+                  <div className="img">
+                     <img src={Kitchen1} />
+                  </div>
+               </Link>
+               <div className="title">
+                  <h2>Kitchens</h2>
+               </div>
+               <div className="description">
+                  <p>Description</p>
+               </div>
+               <div className="read-more">
+                  <a href="/service/kitchens">+ Read More</a>
+               </div>
+            </div>
+
+            <div className="category">
+               <Link to="/">
+                  <div className="img">
+                     <img src={Bathroom1} />
+                  </div>
+               </Link>
+               <div className="title">
+                  <h2>Bathrooms</h2>
+               </div>
+               <div className="description">
+                  <p>Description</p>
+               </div>
+               <div className="read-more">
+                  <a href="/">+ Read More</a>
+               </div>
+            </div>
+
+            <div className="category">
+               <Link to="/">
+                  <div className="img">
+                     <img src={Basement1} />
+                  </div>
+               </Link>
+               <div className="title">
+                  <h2>Basements</h2>
+               </div>
+               <div className="description">
+                  <p>Description</p>
+               </div>
+               <div className="read-more">
+                  <a href="/">+ Read More</a>
+               </div>
+            </div>
+
+            <div className="category">
+               <Link to="/">
+                  <div className="img">
+                     <img src={House1} />
+                  </div>
+               </Link>
+               <div className="title">
+                  <h2>Whole House</h2>
+               </div>
+               <div className="description">
+                  <p>Description</p>
+               </div>
+               <div className="read-more">
+                  <a href="/">+ Read More</a>
+               </div>
+            </div>
+         </div>
+
          <div className="hero-content-wrapper">
             <div className="contractors-info">
                <div className="main-title">
                   <h1>Your M&H Renovations Hotel and Residency Contractors</h1>
                </div>
                <div className="title">
-                  <h2>Family and Friends Owned and Operated for over 10 years</h2>
+                  <p>Family and Friends Owned and Operated for over 10 years</p>
                </div>
                <div className="hero-description">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis

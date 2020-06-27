@@ -6,7 +6,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+      // box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
       .category{
          display: flex;
@@ -53,12 +53,13 @@
          align-items: center;
 
          .main-title h1{
-            font-size: 2.5em;
-            color: #1452c5;
-            font-weight: bold;
+            font-size: 3em;
+            color: #1452c5; 
+            font-family: 'Heebo', sans-serif;
+            font-weight: 900;
          }
 
-         .title h2{
+         .title p{
             font-size: 1.8em;
          }
 
@@ -81,7 +82,7 @@
 
          .title h2{
             font-size: 1.8em;
-            color: #545454;
+            color: #1452c5;
          }
 
          .schedule-link{
@@ -160,10 +161,11 @@
          
 
          .title h1{
-            color: #fff;
+            color: #fff; 
             font-size: 3.5em;
             position: relative;
-            font-family: inherit;
+            font-family: 'Heebo', sans-serif;    
+            font-weight: 900;
          }
 
          .description{
