@@ -10,19 +10,40 @@ import PortfolioHotels from "./pages/portfolio-hotels.js";
 import ContactUs from "./pages/contact";
 import GetQuote from "./pages/get-quote";
 import Footer from "./footer/footer";
+import SideDrawer from "./sideDrawer/sideDrawer";
+import Backdrop from "./backdrop/backdrop";
 
 export default class App extends Component {
-  constructor() {
-    super();
-
+  constructor(props) {
+    super(props);
     Icons();
+    this.state = {
+      sideDrawerOpen: false,
+    };
+    this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
+  }
+
+  drawerToggleClickHandler() {
+    this.setState((prevState) => ({
+      sideDrawerOpen: !prevState.sideDrawerOpen,
+    }));
   }
 
   render() {
+    let backdrop;
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop />;
+    }
+
     return (
       <div className="app">
         <Router>
-          <Navbar />
+          <Navbar
+            drawerToggleClickHandler={this.drawerToggleClickHandler}
+            isOpenState={this.state.sideDrawerOpen}
+          />
+          <SideDrawer isOpenState={this.state.sideDrawerOpen} />
+          {backdrop}
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />

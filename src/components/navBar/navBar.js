@@ -1,9 +1,26 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../../../static/assets/images/logo/mh_logo2.png";
 
 export default class Navbar extends Component {
   render() {
+    let menu;
+    if (this.props.isOpenState) {
+      menu = (
+        <FontAwesomeIcon
+          icon="times"
+          onClick={this.props.drawerToggleClickHandler}
+        />
+      );
+    } else {
+      menu = (
+        <FontAwesomeIcon
+          icon="bars"
+          onClick={this.props.drawerToggleClickHandler}
+        />
+      );
+    }
     return (
       <div className="nav">
         <div className="leftColumn">
@@ -13,6 +30,7 @@ export default class Navbar extends Component {
         </div>
 
         <div className="rightColumn">
+          <div className="menuIcon-wrapper">{menu}</div>
           <div className="links-wrapper">
             <div className="dropdown">
               <button className="dropbtn">About Us</button>
