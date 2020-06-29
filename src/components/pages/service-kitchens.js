@@ -13,7 +13,7 @@ export default function Kitchens() {
       <div className="kitchens-main-wrapper">
          <div className="title-img">
             <div className="title">
-               <h1>Kitchens Renovations</h1>
+               <h1>Kitchen Renovations</h1>
             </div>
          </div>
 

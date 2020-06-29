@@ -25,32 +25,38 @@
    
       .title{         
          h1{
-            color: #fff;
+            color: #fff; 
             font-size: 3em;
             position: relative;
-            font-family: inherit;
+            font-family: 'Heebo', sans-serif;    
+            font-weight: 900;            
          }
       }
    }
 
    .contractors-info{
+      box-sizing: border-box;
       background-color: #ecf0f1;
-      padding-top: 80px;
-      padding-bottom: 60px;
-      display: flex;
+      margin: 0px;
+      // padding-top: 80px;
+      // padding-bottom: 60px;
+      // display: flex;
+      padding: 60px;
+      display: block;
       flex-direction: column;
       justify-content: center;
-      align-items: center;     
+      // align-items: center;     
+      text-align: left;
 
       .title h2{
          font-size: 1.8em;
       }
 
       .description{
-         padding: 0px 120px;
+         padding: 0px;
 
          p{
-            font-size: 1.3em;
+            font-size: 15px;
             color: #545454;
          }
       }
@@ -84,7 +90,7 @@
                padding: 0px 42px;
    
                h1{
-                  color: #be58dd;
+                  color: solid black;
                }
             }
          }
