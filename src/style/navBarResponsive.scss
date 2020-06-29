@@ -1,7 +1,7 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 899px) {
   .nav {
-    display: flex;
-    flex-direction: column;
+    grid-template-rows: 1fr;
+    grid-template-columns: none;
     width: 100%;
     .leftColumn {
       display: flex;
@@ -9,7 +9,6 @@
     }
 
     .rightColumn {
-      display: flex;
       flex-direction: column;
       justify-content: flex-space;
       align-items: flex-end;
@@ -31,11 +30,17 @@
     }
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 899px) and (max-width: 1200px) {
+  body {
+    margin-top: 200px;
+  }
   .nav {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
     justify-content: center;
+    width: 100%;
+    border-bottom: 3px solid #1452c5;
 
     .rightColumn {
       display: flex;
@@ -43,18 +48,23 @@
       justify-content: center;
       align-items: center;
       width: 100vw;
+      .menuIcon-wrapper {
+        display: none;
+      }
       .links-wrapper {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-end;
-        position: static;
-        background: transparent;
-        width: 100%;
-        right: 0;
-        padding-right: 0;
-        z-index: 0;
+        justify-content: center;
+        align-items: center;
+        position: inherit;
+        right: auto;
         transform: none;
+        width: 100%;
+        max-width: none;
+
+        .dropdown button {
+          width: 100%;
+        }
       }
     }
   }

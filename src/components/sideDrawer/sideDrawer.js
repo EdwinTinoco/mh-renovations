@@ -5,18 +5,22 @@ export default class SideDrawer extends Component {
   constructor(props) {
     super(props);
   }
+
   render() {
-    let drawerClasses = ["links-wrapper"];
+    let drawerClasses = ["drawer-links-wrapper"];
     if (this.props.isOpenState) {
-      drawerClasses = ["links-wrapper open"];
+      drawerClasses = ["drawer-links-wrapper open"];
     }
+
     return (
       <div className={drawerClasses}>
         <div className="dropdown">
-          <button className="dropbtn">About Us</button>
+          <button className="dropbtn" onClick={this.menuToggleClick}>
+            About Us
+          </button>
           <div className="dropdown-content">
             <NavLink to="/about" activeClassName="activeNav">
-              Who we are
+              > Who we are
             </NavLink>
           </div>
         </div>
@@ -24,16 +28,16 @@ export default class SideDrawer extends Component {
           <button className="dropbtn">Services</button>
           <div className="dropdown-content">
             <NavLink to="/service/kitchens" activeClassName="activeNav">
-              Kitchens
+              > Kitchens
             </NavLink>
             <NavLink to="/" activeClassName="activeNav">
-              NavLink 2
+              > NavLink 2
             </NavLink>
             <NavLink to="/" activeClassName="activeNav">
-              NavLink 3
+              > NavLink 3
             </NavLink>
             <NavLink to="/" activeClassName="activeNav">
-              NavLink 4
+              > NavLink 4
             </NavLink>
           </div>
         </div>
@@ -41,10 +45,10 @@ export default class SideDrawer extends Component {
           <button className="dropbtn">Projects</button>
           <div className="dropdown-content">
             <NavLink to="/portfolio/hotels" activeClassName="activeNav">
-              Hotels
+              > Hotels
             </NavLink>
             <NavLink to="/getquote" activeClassName="activeNav">
-              Residencies
+              >Residencies
             </NavLink>
           </div>
         </div>
