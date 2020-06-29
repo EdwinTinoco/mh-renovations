@@ -99,7 +99,7 @@ export default function Home() {
 
          <div className="some-categories-wrapper">
             <div className="title">
-               <h1>Residency</h1>
+               <h1>Residences</h1>
             </div>
             <div className="categories">
                <div className="category">

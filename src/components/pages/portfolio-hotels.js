@@ -20,7 +20,7 @@ export default function PortfolioHotels() {
       <div className="portfolio-main-wrapper">
          <div className="title-img">
             <div className="title">
-               <h1>Portfolio - Hotel Renovations</h1>
+               <h1>Portfolio: Hotel Renovations</h1>
             </div>
          </div>
 
