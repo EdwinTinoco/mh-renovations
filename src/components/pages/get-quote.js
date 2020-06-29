@@ -73,7 +73,7 @@ export default class GetQuote extends Component {
             <div className="icon">
               <FontAwesomeIcon icon="calculator" />
             </div>
-            <h1>Quote</h1>
+            <h1>Get a Quote on Your Project</h1>
           </div>
         </div>
         <div className="quoteBody">
@@ -99,7 +99,7 @@ export default class GetQuote extends Component {
                   type="email"
                   id="email"
                   placeholder="Email"
-                  name="Email"
+                  name="email"
                   value={this.state.email}
                   onChange={this.handleChange}
                   required
