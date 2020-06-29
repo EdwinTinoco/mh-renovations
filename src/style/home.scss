@@ -1,11 +1,12 @@
 .home-main-wrapper{
    .some-categories-wrapper{
       background-color: #ecf0f1;
-      padding-top: 60px;
-      padding-bottom: 40px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+      text-align: center;
 
       .title h1{
-         padding-bottom: 20px;
+         padding-bottom: 10px;
          text-align: center;
          color: #273cb3;
          font-size: 2.5em;
@@ -13,21 +14,43 @@
       }
 
       .categories{
+         box-sizing: border-box;
+         margin-top: 0px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 5px;
          display: flex;
          justify-content: space-around;
          align-items: center;      
    
          .category{
-            display: flex;
+            // display: flex;
+            display: block;
+            box-sizing: border-box;
+            height: auto;
+            max-width: 75%;
+            // display: inline;
             flex-direction: column;
             justify-content: center;
             align-items: center;
          }
    
          img{
-            border-radius: 3px;
-            width: 20vw;
-            height: 19vh;
+            // border-radius: 3px;
+            border-radius: 1px;
+            // display: inline;
+            display: inline-block;
+            line-height: 0;
+            position: relative;
+            max-width: 100%;
+            width: 13vw;
+            height: 35vh;
+
+            // width: 20vw;
+            // height: 19vh;
+            
+            vertical-align: middle;
+            border: 0;
             transition: transform 0.3s;
    
             &:hover{
