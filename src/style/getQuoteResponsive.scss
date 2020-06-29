@@ -1,0 +1,42 @@
+@media screen and (max-width: 899px) {
+  .quoteWrapper {
+    .quoteHeader {
+      font-size: 0.8em;
+      padding: 10px;
+    }
+    .quoteBody {
+      grid-template-columns: none;
+      grid-template-rows: 1fr 0.25fr;
+      .quoteLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.4em;
+        .quoteForm {
+          .formGroup {
+            width: 95%;
+          }
+        }
+      }
+      .quoteRight {
+        height: 100%;
+        .rightWrapper {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 899px) and (max-width: 1200px) {
+  .quoteWrapper {
+    .quoteHeader {
+    }
+    .quoteBody {
+      .quoteLeft {
+        h1 {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
