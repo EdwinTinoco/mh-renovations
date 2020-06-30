@@ -1,0 +1,68 @@
+@media screen and (max-width: 899px) {
+  .contact-main-wrapper {
+    .form-info-wrapper {
+      grid-template-columns: none;
+      grid-template-rows: 1fr 0.5fr;
+
+      .form-wrapper {
+      }
+      .info-wrapper {
+        .get-quote {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          a {
+          }
+          .button {
+            justify-self: center;
+          }
+        }
+      }
+    }
+    //in HTML  is own component
+    .sign-up-newsletter-wrapper {
+      height: 100%;
+      .input-button-wrapper {
+        flex-direction: column;
+        .button {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 899px) and (max-width: 1200px) {
+  .sign-up-newsletter-wrapper {
+    justify-content: center;
+    align-items: center;
+    .title-icon {
+      justify-content: center;
+      width: 100%;
+    }
+    .input-button-wrapper {
+      flex-direction: column;
+      width: 100%;
+
+      .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+      }
+      .email {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+      }
+      .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+      }
+    }
+  }
+}
