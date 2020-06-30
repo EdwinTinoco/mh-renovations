@@ -165,12 +165,12 @@ export default class ContactUs extends Component {
                   </div>
 
                   <div className="phone-number">
-                     (555) 555-5555 <br />
-                     (555) 555-5555
+                     (801) 850 - 4208 <br />
+                     (801) 850 - 3828
                   </div>
 
                   <div className="email">
-                     <p>ejemplo@gmail.com</p>
+                     <p>mhrenovations2@gmail.com</p>
                   </div>
 
                   <hr />
