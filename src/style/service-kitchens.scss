@@ -36,27 +36,26 @@
 
    .contractors-info{
       box-sizing: border-box;
-      background-color: #ecf0f1;
-      margin: 0px;
-      // padding-top: 80px;
-      // padding-bottom: 60px;
-      // display: flex;
-      padding: 60px;
-      display: block;
+      background-color: #ecf0f1;      
+      padding-top: 80px;
+      padding-bottom: 60px;
+      display: flex;
+      // padding: 60px;
+      // display: block;
       flex-direction: column;
       justify-content: center;
-      // align-items: center;     
-      text-align: left;
+      align-items: center;     
+      // text-align: left;
 
       .title h2{
          font-size: 1.8em;
       }
 
       .description{
-         padding: 0px;
+         padding: 0px 50px;
 
          p{
-            font-size: 15px;
+            font-size: 20px;
             color: #545454;
          }
       }
