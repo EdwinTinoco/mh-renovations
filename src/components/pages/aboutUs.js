@@ -16,22 +16,27 @@ export default class About extends Component {
             possimus dolorem architecto libero repellendus nulla quas veniam
             illum sint.
           </h3>
+          <div className="p1">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
             consequatur corporis, nihil a velit ratione?
           </p>
+          </div>
+          <div className="p2">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             quidem quod consequuntur accusantium neque, illo provident officiis
             sunt non? Soluta?
           </p>
-          <h1 className="line" />
+          </div>
+          <div id="line"></div>
+
           <div className="about-profile">
             <div className="avatar-image">
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -43,13 +48,16 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-          <h1 className="line" />
+
+          <div id="line"></div>
+
+          {/* <h1 className="line" /> */}
           <div className="about-profile">
             <div className="avatar-image">
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -61,13 +69,16 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-          <h1 className="line" />
+
+          <div id="line"></div>
+
+          {/* <h1 className="line" /> */}
           <div className="about-profile">
             <div className="avatar-image">
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -79,13 +90,16 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-          <h1 className="line" />
+
+          <div id="line"></div>
+
+          {/* <h1 className="line" /> */}
           <div className="about-profile">
             <div className="avatar-image">
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -97,13 +111,16 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-          <h1 className="line" />
+
+          <div id="line"></div>
+
+          {/* <h1 className="line" /> */}
           <div className="about-profile">
             <div className="avatar-image">
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -115,13 +132,16 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-          <h1 className="line" />
+
+          <div id="line"></div>
+
+          {/* <h1 className="line" /> */}
           <div className="about-profile">
             <div className="avatar-image">
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -133,7 +153,7 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-          <h1 className="line" />
+          {/* <h1 className="line" /> */}
         </div>
       </div>
     );

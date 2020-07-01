@@ -14,6 +14,10 @@ import GetQuote from "./pages/get-quote";
 import Footer from "./footer/footer";
 import SideDrawer from "./sideDrawer/sideDrawer";
 import Backdrop from "./backdrop/backdrop";
+import Ammenities from "./portfolio/ammenities";
+import BackOffice from "./portfolio/back-office";
+import CommonAreas from "./portfolio/common-areas";
+import PortfolioResidences from "./pages/portfolio-residences";
 
 export default class App extends Component {
   constructor(props) {
@@ -54,6 +58,14 @@ export default class App extends Component {
             <Route path="/portfolio/hotels" component={PortfolioHotels} />
             <Route path="/portfolio/hotel-lobby" component={Lobby} />
             <Route path="/portfolio/hotel-guest-room" component={GuestRoom} />
+            <Route path="/portfolio/hotel/ammenities" component={Ammenities} />
+            <Route path="/portfolio/hotel/back-office" component={BackOffice} />
+            <Route path="/portfolio/hotel/common-areas" component={CommonAreas} />
+
+            <Route path="/pages/portfolio-residences" component={PortfolioResidences} />
+            {/* <Route path="/pages/portfolio-residence-kitchen" component={ResidenceKitchen} />
+            <Route path="/pages/portfolio-residence-bath" component={ResidenceBath}/>
+            <Route path="/pages/portfolio-residence-bedroom" component={ResidenceBedroom} /> */}
 
 
             <Route path="/contact" component={ContactUs} />

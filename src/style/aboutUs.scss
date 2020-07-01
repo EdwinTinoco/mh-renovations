@@ -39,23 +39,57 @@
   .aboutUs-body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    align-items: left;
     width: 80%;
+    margin: 30px 20px 30px 20px;
 
-    .line {
-      border: 5px solid black;
+
+    h1 {
+      // padding-bottom: 5px;
+      // text-align: left;
+      color: #273cb3;
+      font-size: 2.5em;
+      font-family: 'Heebo', sans-serif;
+      margin: 50px 0px 20px 0px;
+    }
+
+    h2 {
+      color: #273cb3;
+    }
+
+    h3 {
+      margin: 7px 0px 7px 0px;
+    }
+
+    .p2 {
+      margin-bottom: 50px;
+    }
+
+    p {
+      margin: 7px 0px 7px 0px;
+      padding-bottom: 5px;
+    }
+
+    #line {
+      margin: 10px;
+      // border: 1px solid black;
+      height: 1px;
       width: 100%;
+      background-color: black;
     }
     .about-profile {
-      margin: 1.5rem;
+      margin: 30px;
+      // margin: 1.5rem;
       display: grid;
       grid-template-columns: 1fr 2fr;
 
       .avatar-image img {
-        width: 80%;
-        border-radius: 50%;
-        border: 2px solid black;
+        // margin: 50px;
+        width: 17vw;
+        height: 45vh;
+        border-radius: 2%;
+        // border: 2px solid black;
       }
     }
   }

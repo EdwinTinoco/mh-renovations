@@ -29,26 +29,30 @@
             font-size: 3em;
             position: relative;
             font-family: 'Heebo', sans-serif;    
-            font-weight: 900;            
+            font-weight: 900; 
+            padding-left: 80px;           
          }
       }
    }
 
+  
    .contractors-info{
       box-sizing: border-box;
-      background-color: #ecf0f1;      
-      padding-top: 80px;
-      padding-bottom: 60px;
+      background-color: #ecf0f1;   
+      padding: 80px 20px 80px 20px;  
+      // padding-top: 80px;
+      // padding-bottom: 60px;
       display: flex;
       // padding: 60px;
       // display: block;
       flex-direction: column;
       justify-content: center;
-      align-items: center;     
+      align-items: left;     
       // text-align: left;
 
       .title h2{
          font-size: 1.8em;
+         margin-left: 50px;
       }
 
       .description{
@@ -76,7 +80,7 @@
             // margin-top: -1px;
    
             .img-wrapper img{
-               width: 40vw;
+               width: 30vw;
                height: 40vh;
                object-fit: cover;
             }

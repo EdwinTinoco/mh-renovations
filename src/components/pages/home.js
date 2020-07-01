@@ -175,7 +175,9 @@ export default function Home() {
          <div className="hero-content-wrapper">
             <div className="contractors-info">
                <div className="main-title">
-                  <h1>Your M&H Renovations Hotel and Residency Contractors</h1>
+
+                  <h1>M&H Renovations | Hotel and Residence Contractors</h1>
+
                </div>
                <div className="title">
                   <p>Family and Friends Owned and Operated for over 10 years</p>
