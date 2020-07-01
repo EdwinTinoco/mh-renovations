@@ -15,10 +15,16 @@
 
       .categories{
          box-sizing: border-box;
+
+         padding: 20px;
+
          // margin-top: 0px;
          // margin-left: auto;
          // margin-right: auto;
          // margin-bottom: 5px;
+
+         margin: 0px 40px 5px 40px;
+
          display: flex;
          // justify-content: space-around;
          align-items: center; 
@@ -29,7 +35,7 @@
             // display: inline-block;
             box-sizing: border-box;
             height: auto;
-            max-width: 75%;
+            max-width: 60%;
             // display: inline;
             margin: 25px;
             // flex-direction: column;
@@ -38,18 +44,18 @@
    
          img {
             // border-radius: 3px;
-            border-radius: 1px;
+            border-radius: 2px;
             // display: inline;
             display: inline-block;
             line-height: 0;
             position: relative;
             max-width: 100%;
-            width: 14vw;
+
+            width: 15vw;
             height: 20vh;
 
             // width: 20vw;
             // height: 19vh;
-            
             vertical-align: middle;
             border: 0;
             transition: transform 0.3s;
