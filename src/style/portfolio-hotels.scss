@@ -35,20 +35,20 @@
    }
 
    .squares-wrapper{
-
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 0px;
-      // padding: 60px 0px;
-      margin: 100px;
+      padding: 80px 150px;
+      // margin: 50px;
 
       
 
       .square{
-         margin-top: 50px;
+         margin: 0px;
+         margin-top: 30px;
          text-align: center;  
-         display: inline;
-         // padding: 20px 0px;
+         display: block;
+         padding: 20px 0px;
 
 
          .img{

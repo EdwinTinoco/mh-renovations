@@ -63,8 +63,8 @@ export default class Navbar extends Component {
                 <NavLink to="/portfolio/hotels" activeClassName="activeNav">
                   Hotels
                 </NavLink>
-                <NavLink to="/getquote" activeClassName="activeNav">
-                  Residencies
+                <NavLink to="/pages/portfolio-residences" activeClassName="activeNav">
+                  Residences
                 </NavLink>
               </div>
             </div>

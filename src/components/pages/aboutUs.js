@@ -36,7 +36,7 @@ export default class About extends Component {
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -57,7 +57,7 @@ export default class About extends Component {
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -78,7 +78,7 @@ export default class About extends Component {
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -99,7 +99,7 @@ export default class About extends Component {
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -120,7 +120,7 @@ export default class About extends Component {
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -141,7 +141,7 @@ export default class About extends Component {
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h1>First and last name</h1>
+              <h2>First and last name</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim

@@ -16,7 +16,7 @@ export default function Lobby() {
 
          <div className="content">
             <div className="title-project">
-               <h1>Spring Hill Hotel Lobby</h1>
+               <h1>Spring Hill Inn & Suites</h1>
             </div>
             <div className="images-details">
                <div className="left-column">
@@ -38,11 +38,11 @@ export default function Lobby() {
                </div>
 
                <div className="right-column">
-                  <p className="title">Projects Details</p>
+                  <p className="title">Project Details</p>
                   <div className="details">
-                     <p>Location: Lehi, UT</p>
-                     <p>Type: Contemporary Lobby</p>
-                     <p>Features:</p>
+                     <p>LOCATION: Lehi, UT</p>
+                     <p>TYPE:  Contemporary Lobby</p>
+                     <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                      </ul>
@@ -73,9 +73,13 @@ export default function Lobby() {
             </div>
 
             <div className="images-project">
-               <h2>Before, construction and design photos gallery</h2>
+               <h2>Before & After Photo Gallery</h2>
 
                <div className="images">
+                  <img src={Kitchen001} />
+                  <img src={Kitchen002} />
+                  <img src={Kitchen005} />
+                  <img src={Kitchen004} />
                   <img src={Kitchen001} />
                   <img src={Kitchen002} />
                   <img src={Kitchen005} />
@@ -88,7 +92,7 @@ export default function Lobby() {
 
          <div className="content">
             <div className="title-project">
-               <h1>Holiday Inn Hotel Lobby</h1>
+               <h1>Holiday Inn Hotel</h1>
             </div>
             <div className="images-details">
                <div className="left-column">
@@ -110,11 +114,11 @@ export default function Lobby() {
                </div>
 
                <div className="right-column">
-                  <p className="title">Projects Details</p>
+                  <p className="title">Project Details</p>
                   <div className="details">
-                     <p>Location: Lehi, UT</p>
-                     <p>Type: Contemporary Lobby</p>
-                     <p>Features:</p>
+                     <p>LOCATION: Lehi, UT</p>
+                     <p>TYPE: Contemporary Lobby</p>
+                     <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                      </ul>
@@ -145,9 +149,13 @@ export default function Lobby() {
             </div>
 
             <div className="images-project">
-               <h2>Before, construction and design photos gallery</h2>
+               <h2>Before & After Photo Gallery</h2>
 
                <div className="images">
+                  <img src={Kitchen001} />
+                  <img src={Kitchen002} />
+                  <img src={Kitchen005} />
+                  <img src={Kitchen004} />
                   <img src={Kitchen001} />
                   <img src={Kitchen002} />
                   <img src={Kitchen005} />
