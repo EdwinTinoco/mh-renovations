@@ -7,11 +7,11 @@ import Kitchen002 from "../kitchens/images/kitchen002.jpg"
 import Kitchen004 from "../kitchens/images/kitchen004.jpg"
 import Kitchen005 from "../kitchens/images/kitchen005.jpg"
 
-export default function GuestRoom() {
+export default function CommonAreas() {
    return (
       <div className="lobby-main-wrapper">
          <div className="main-title">
-            <h1>Guest Rooms</h1>
+            <h1>Common Areas</h1>
          </div>
 
          <div className="content">
@@ -41,7 +41,7 @@ export default function GuestRoom() {
                   <p className="title">Project Details</p>
                   <div className="details">
                      <p>LOCATION: Lehi, UT</p>
-                     <p>TYPE:  Contemporary Lobby</p>
+                     <p>TYPE:  Common Areas</p>
                      <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -117,7 +117,7 @@ export default function GuestRoom() {
                   <p className="title">Project Details</p>
                   <div className="details">
                      <p>LOCATION: Lehi, UT</p>
-                     <p>TYPE: Contemporary Lobby</p>
+                     <p>TYPE: Common Areas</p>
                      <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
