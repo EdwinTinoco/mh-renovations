@@ -35,13 +35,14 @@
    }
 
    .squares-wrapper{
-      padding: 60px 0px;
+      padding: 40px 0px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       
 
       .square{
          margin-top: 60px;
+         padding: 5px;
          text-align: center;        
 
          .img{
