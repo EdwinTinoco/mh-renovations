@@ -28,65 +28,65 @@ export default function PortfolioResidences() {
             <div className="square">
 
                <div className="img">
-                  <Link to="/portfolio/residence-kitchen">
+                  <Link to="/portfolio/residence/kitchen">
                      <img src={Kitchen001} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence-kitchen">Kitchen</Link>
+                  <Link to="/portfolio/residence/kitchen">Kitchen</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/residence-bath">
+                  <Link to="/portfolio/residence/bath">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence-bath">Bathrooms</Link>
+                  <Link to="/portfolio/residence/bath">Bathrooms</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/residence-bedroom">
+                  <Link to="/portfolio/residence/bedroom">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence-bedroom">Bedrooms</Link>
+                  <Link to="/portfolio/residence/bedroom">Bedrooms</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/residence-laundry">
+                  <Link to="/portfolio/residence/laundry">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence-laundry">Laundry Rooms</Link>
+                  <Link to="/portfolio/residence/laundry">Laundry Rooms</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/residence-living-areas">
+                  <Link to="/portfolio/residence/living-areas">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence-living-areas">Living Areas</Link>
+                  <Link to="/portfolio/residence/living-areas">Living Areas</Link>
                </div>
             </div>
          </div>
-{/* 
+         {/* 
          <div className="brands-wrapper">
             <div className="title">
                <h2>Some brands we've worked with...</h2>
@@ -110,9 +110,9 @@ export default function PortfolioResidences() {
                <div className="img">
                   <img src={SpringHill} />
                </div> */}
-            {/* </div> */}
-         </div>
+         {/* </div> */}
+      </div>
 
-    //   </div>
+      //   </div>
    )
 }

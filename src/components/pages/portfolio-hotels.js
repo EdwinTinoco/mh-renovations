@@ -28,25 +28,25 @@ export default function PortfolioHotels() {
             <div className="square">
 
                <div className="img">
-                  <Link to="/portfolio/hotel-lobby">
+                  <Link to="/portfolio/hotel/lobby">
                      <img src={Kitchen001} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/hotel-lobby">Lobby</Link>
+                  <Link to="/portfolio/hotel/lobby">Lobby</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/hotel-guest-room">
+                  <Link to="/portfolio/hotel/guest-room">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/hotel-guest-room">Guest Rooms</Link>
+                  <Link to="/portfolio/hotel/guest-room">Guest Rooms</Link>
                </div>
             </div>
 
@@ -70,7 +70,7 @@ export default function PortfolioHotels() {
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/hotel/common-areas">Back Office</Link>
+                  <Link to="/portfolio/hotel/back-office">Back Office</Link>
                </div>
             </div>
 
@@ -82,7 +82,7 @@ export default function PortfolioHotels() {
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/hotel/common-areas">Ammenities</Link>
+                  <Link to="/portfolio/hotel/ammenities">Ammenities</Link>
                </div>
             </div>
          </div>

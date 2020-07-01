@@ -56,13 +56,13 @@ export default class App extends Component {
             <Route path="/service/kitchens" component={ServiceKitchens} />
 
             <Route path="/portfolio/hotels" component={PortfolioHotels} />
-            <Route path="/portfolio/hotel-lobby" component={Lobby} />
-            <Route path="/portfolio/hotel-guest-room" component={GuestRoom} />
+            <Route path="/portfolio/hotel/lobby" component={Lobby} />
+            <Route path="/portfolio/hotel/guest-room" component={GuestRoom} />
             <Route path="/portfolio/hotel/ammenities" component={Ammenities} />
             <Route path="/portfolio/hotel/back-office" component={BackOffice} />
             <Route path="/portfolio/hotel/common-areas" component={CommonAreas} />
 
-            <Route path="/pages/portfolio-residences" component={PortfolioResidences} />
+            <Route path="/portfolio/residences" component={PortfolioResidences} />
             {/* <Route path="/pages/portfolio-residence-kitchen" component={ResidenceKitchen} />
             <Route path="/pages/portfolio-residence-bath" component={ResidenceBath}/>
             <Route path="/pages/portfolio-residence-bedroom" component={ResidenceBedroom} /> */}
