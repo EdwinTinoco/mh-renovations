@@ -133,7 +133,7 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-          <h1 className="line" />
+          {/* <h1 className="line" /> */}
         </div>
       </div>
     );
