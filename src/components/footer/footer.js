@@ -28,7 +28,7 @@ export default function Footer() {
                      <Link to="/">Planning & Design</Link>
                   </div>
                   <div className="link">
-                     <Link to="/">Project & Management</Link>
+                     <Link to="/">Project Management</Link>
                   </div>
                   <div className="link">
                      <Link to="/">Kitchen Renovations</Link>
@@ -41,7 +41,7 @@ export default function Footer() {
 
             <div className="left-column">
                <div className="title">
-                  <h2>Get in touch</h2>
+                  <h2>Contact Us</h2>
                </div>
 
                <div className="phone-number-icon">
