@@ -7,7 +7,7 @@ export default function Footer() {
    return (
       <div className="footer-main-wrapper">
          <div className="footer-content">
-            <div className="right-column">
+            <div className="left-column">
                <div className="title">
                   <h2>About Us</h2>
                </div>
@@ -39,7 +39,7 @@ export default function Footer() {
                </div>
             </div>
 
-            <div className="left-column">
+            <div className="right-column">
                <div className="title">
                   <h2>Contact Us</h2>
                </div>

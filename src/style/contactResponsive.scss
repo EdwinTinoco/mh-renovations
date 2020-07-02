@@ -19,50 +19,7 @@
           }
         }
       }
-    }
-    //in HTML  is own component
-    .sign-up-newsletter-wrapper {
-      height: 100%;
-      .input-button-wrapper {
-        flex-direction: column;
-        .button {
-          margin-top: 30px;
-        }
-      }
-    }
+    }    
   }
 }
-@media screen and (min-width: 899px) and (max-width: 1200px) {
-  .sign-up-newsletter-wrapper {
-    justify-content: center;
-    align-items: center;
-    .title-icon {
-      justify-content: center;
-      width: 100%;
-    }
-    .input-button-wrapper {
-      flex-direction: column;
-      width: 100%;
 
-      .name {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-      }
-      .email {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-      }
-      .button {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        margin-top: 30px;
-      }
-    }
-  }
-}

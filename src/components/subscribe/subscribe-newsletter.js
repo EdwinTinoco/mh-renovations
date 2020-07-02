@@ -53,6 +53,7 @@ export default class SubscribeNewsletter extends Component {
                </div>
                <h2>Sign Up to our Newsletter</h2>
             </div>
+
             <form onSubmit={this.handleSubmit} className="input-button-wrapper">
                <div className="name">
                   <input
