@@ -49,8 +49,9 @@ export default function Footer() {
                      <FontAwesomeIcon icon="phone" />
                   </div>
                   <div className="phone">
-                     555 555-5555
-               </div>
+                     <p>(801) 850-4208<br></br>
+                     (801) 850-3828</p>
+                  </div>
                </div>
 
                <div className="email-icon">
@@ -58,7 +59,7 @@ export default function Footer() {
                      <FontAwesomeIcon icon="envelope" />
                   </div>
                   <div className="email">
-                     ejemplo@gmail.com
+                     mhrenovations2@gmail.com
                </div>
                </div>
 
