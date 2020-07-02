@@ -205,14 +205,16 @@ export default function Home() {
                   <p>We will walk you through your home and asses key design elements and budget considerations</p>
                </div>
                <div className="buttons">
-                  <button type="button">
-                     <div className="icon">
-                        <FontAwesomeIcon icon="camera" />
-                     </div>
-                     <div className="button-desc">
-                        Featured Projects
+                  <Link to="/portfolio/hotels">
+                     <button type="button">
+                        <div className="icon">
+                           <FontAwesomeIcon icon="camera" />
                         </div>
-                  </button>
+                        <div className="button-desc">
+                           Featured Projects
+                     </div>
+                     </button>
+                  </Link>
                </div>
             </div>
 
