@@ -52,8 +52,10 @@ export default class App extends Component {
             drawerToggleClickHandler={this.drawerToggleClickHandler}
             isOpenState={this.state.sideDrawerOpen}
           />
+
           <SideDrawer isOpenState={this.state.sideDrawerOpen} />
           {backdrop}
+
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
@@ -75,6 +77,7 @@ export default class App extends Component {
             <Route path="/contact" component={ContactUs} />
             <Route path="/get-quote" component={GetQuote} />
           </Switch>
+
           <Footer />
         </Router>
       </div>
