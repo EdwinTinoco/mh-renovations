@@ -22,10 +22,13 @@ import PortfolioResidences from "./pages/portfolio-residences";
 export default class App extends Component {
   constructor(props) {
     super(props);
+
     Icons();
+
     this.state = {
       sideDrawerOpen: false,
     };
+
     this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
   }
 
@@ -37,6 +40,7 @@ export default class App extends Component {
 
   render() {
     let backdrop;
+
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop />;
     }
