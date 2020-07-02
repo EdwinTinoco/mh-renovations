@@ -168,3 +168,12 @@
       
    }
 }
+
+@media (max-width: 615px){
+   .footer-main-wrapper{
+      .footer-content{
+         flex-direction: column;
+         justify-content: center;
+      }
+   }
+}
