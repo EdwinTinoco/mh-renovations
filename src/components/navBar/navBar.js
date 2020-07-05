@@ -34,6 +34,12 @@ export default class Navbar extends Component {
           <div className="links-wrapper">
 
             <div className="dropdown">
+              <NavLink to="/" activeClassName="activeNav">
+                <button className="dropbtn">Home</button>
+              </NavLink>
+            </div>
+
+            <div className="dropdown">
               <NavLink to="/about" activeClassName="activeNav">
                 <button className="dropbtn">About Us</button>
               </NavLink>

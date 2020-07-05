@@ -9,17 +9,13 @@
 
   .leftColumn {
     display: flex;
-    justify-content: center;
-
-    a {
-      display: flex;
-      justify-content: space-around;
+    justify-content: left;
 
       img {
+        padding-left: 40px;
         width: 200px;
-        height: 100px;
-      }
-    }
+        height: 90px;
+      }    
   }
   
   .rightColumn {
