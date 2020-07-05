@@ -32,14 +32,13 @@ export default class Navbar extends Component {
         <div className="rightColumn">
           <div className="menuIcon-wrapper">{menu}</div>
           <div className="links-wrapper">
+
             <div className="dropdown">
-              <button className="dropbtn">About Us</button>
-              <div className="dropdown-content">
-                <NavLink to="/about" activeClassName="activeNav">
-                  Who we are
-                </NavLink>
-              </div>
+              <NavLink to="/about" activeClassName="activeNav">
+                <button className="dropbtn">About Us</button>
+              </NavLink>
             </div>
+
             <div className="dropdown">
               <button className="dropbtn">Services</button>
               <div className="dropdown-content">
@@ -57,6 +56,7 @@ export default class Navbar extends Component {
                 </NavLink>
               </div>
             </div>
+
             <div className="dropdown">
               <button className="dropbtn">Projects</button>
               <div className="dropdown-content">
@@ -68,11 +68,13 @@ export default class Navbar extends Component {
                 </NavLink>
               </div>
             </div>
+
             <div className="dropdown">
               <NavLink to="/contact" activeClassName="activeNav">
                 <button className="dropbtn">Contact Us</button>
               </NavLink>
             </div>
+
             <div className="dropdown">
               <NavLink to="/get-quote" activeClassName="activeNav">
                 <button className="dropbtn">Get a Quote</button>
