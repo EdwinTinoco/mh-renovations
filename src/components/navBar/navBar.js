@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../../../static/assets/images/logo/mh_logo2.png";
+import Logo from "../../../static/assets/images/logo/mh_transparent.png";
 
 export default class Navbar extends Component {
   render() {
@@ -41,7 +41,7 @@ export default class Navbar extends Component {
 
             <div className="dropdown">
               <NavLink to="/about" activeClassName="activeNav">
-                <button className="dropbtn">About Us</button>
+                <button className="dropbtn">About us</button>
               </NavLink>
             </div>
 
@@ -77,7 +77,7 @@ export default class Navbar extends Component {
 
             <div className="dropdown">
               <NavLink to="/contact" activeClassName="activeNav">
-                <button className="dropbtn">Contact Us</button>
+                <button className="dropbtn">Contact us</button>
               </NavLink>
             </div>
 
