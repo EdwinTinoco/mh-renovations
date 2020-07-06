@@ -40,7 +40,7 @@ export default function Home() {
                      <p>Description</p>
                   </div>
                   <div className="read-more">
-                     <a href="/service/kitchens">+ Read More</a>
+                     <Link to="/service/kitchens">+ Read More</Link>
                   </div>
                </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
                      <p>Description</p>
                   </div>
                   <div className="read-more">
-                     <a href="/">+ Read More</a>
+                     <Link to="/">+ Read More</Link>
                   </div>
                </div>
 
@@ -74,7 +74,7 @@ export default function Home() {
                      <p>Description</p>
                   </div>
                   <div className="read-more">
-                     <a href="/">+ Read More</a>
+                     <Link to="/">+ Read More</Link>
                   </div>
                </div>
 
@@ -91,7 +91,7 @@ export default function Home() {
                      <p>Description</p>
                   </div>
                   <div className="read-more">
-                     <a href="/">+ Read More</a>
+                     <Link to="/">+ Read More</Link>
                   </div>
                </div>
             </div>
@@ -115,7 +115,7 @@ export default function Home() {
                      <p>Description</p>
                   </div>
                   <div className="read-more">
-                     <a href="/service/kitchens">+ Read More</a>
+                     <Link to="/service/kitchens">+ Read More</Link>
                   </div>
                </div>
 
@@ -132,7 +132,7 @@ export default function Home() {
                      <p>Description</p>
                   </div>
                   <div className="read-more">
-                     <a href="/">+ Read More</a>
+                     <Link to="/">+ Read More</Link>
                   </div>
                </div>
 
@@ -149,7 +149,7 @@ export default function Home() {
                      <p>Description</p>
                   </div>
                   <div className="read-more">
-                     <a href="/">+ Read More</a>
+                     <Link to="/">+ Read More</Link>
                   </div>
                </div>
 
@@ -166,7 +166,7 @@ export default function Home() {
                      <p>Description</p>
                   </div>
                   <div className="read-more">
-                     <a href="/">+ Read More</a>
+                     <Link to="/">+ Read More</Link>
                   </div>
                </div>
             </div>

@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import profile1 from "../../../static/assets/images/aboutUs/profile1.png";
+
+import SubscribeNewsletter from "../subscribe/subscribe-newsletter";
+
 export default class About extends Component {
   render() {
     return (
@@ -17,16 +20,16 @@ export default class About extends Component {
             illum sint.
           </h3>
           <div className="p1">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            consequatur corporis, nihil a velit ratione?
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              consequatur corporis, nihil a velit ratione?
           </p>
           </div>
           <div className="p2">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            quidem quod consequuntur accusantium neque, illo provident officiis
-            sunt non? Soluta?
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              quidem quod consequuntur accusantium neque, illo provident officiis
+              sunt non? Soluta?
           </p>
           </div>
           <div id="line"></div>
@@ -69,92 +72,9 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-
-          <div id="line"></div>
-
-          {/* <h1 className="line" /> */}
-          <div className="about-profile">
-            <div className="avatar-image">
-              <img src={profile1} />
-            </div>
-            <div className="aboutDescription">
-              <h2>First and last name</h2>
-              <h3>Titles goes here</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                esse repellat necessitatibus sunt! Ea optio odio enim expedita
-                explicabo aliquam quae officia fugit voluptatum. Nemo pariatur
-                et dignissimos, ea modi rerum dolore, blanditiis nihil provident
-                dolor beatae obcaecati eos, animi quas explicabo! Quasi incidunt
-                laborum aliquid dignissimos, earum quos ab.
-              </p>
-            </div>
-          </div>
-
-          <div id="line"></div>
-
-          {/* <h1 className="line" /> */}
-          <div className="about-profile">
-            <div className="avatar-image">
-              <img src={profile1} />
-            </div>
-            <div className="aboutDescription">
-              <h2>First and last name</h2>
-              <h3>Titles goes here</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                esse repellat necessitatibus sunt! Ea optio odio enim expedita
-                explicabo aliquam quae officia fugit voluptatum. Nemo pariatur
-                et dignissimos, ea modi rerum dolore, blanditiis nihil provident
-                dolor beatae obcaecati eos, animi quas explicabo! Quasi incidunt
-                laborum aliquid dignissimos, earum quos ab.
-              </p>
-            </div>
-          </div>
-
-          <div id="line"></div>
-
-          {/* <h1 className="line" /> */}
-          <div className="about-profile">
-            <div className="avatar-image">
-              <img src={profile1} />
-            </div>
-            <div className="aboutDescription">
-              <h2>First and last name</h2>
-              <h3>Titles goes here</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                esse repellat necessitatibus sunt! Ea optio odio enim expedita
-                explicabo aliquam quae officia fugit voluptatum. Nemo pariatur
-                et dignissimos, ea modi rerum dolore, blanditiis nihil provident
-                dolor beatae obcaecati eos, animi quas explicabo! Quasi incidunt
-                laborum aliquid dignissimos, earum quos ab.
-              </p>
-            </div>
-          </div>
-
-          <div id="line"></div>
-
-          {/* <h1 className="line" /> */}
-          <div className="about-profile">
-            <div className="avatar-image">
-              <img src={profile1} />
-            </div>
-            <div className="aboutDescription">
-              <h2>First and last name</h2>
-              <h3>Titles goes here</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                esse repellat necessitatibus sunt! Ea optio odio enim expedita
-                explicabo aliquam quae officia fugit voluptatum. Nemo pariatur
-                et dignissimos, ea modi rerum dolore, blanditiis nihil provident
-                dolor beatae obcaecati eos, animi quas explicabo! Quasi incidunt
-                laborum aliquid dignissimos, earum quos ab.
-              </p>
-            </div>
-          </div>
-          {/* <h1 className="line" /> */}
         </div>
+
+        <SubscribeNewsletter />
       </div>
     );
   }

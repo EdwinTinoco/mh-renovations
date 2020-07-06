@@ -41,7 +41,7 @@ export default class Navbar extends Component {
 
             <div className="dropdown">
               <NavLink to="/about" activeClassName="activeNav">
-                <button className="dropbtn">About us</button>
+                <button className="dropbtn">About</button>
               </NavLink>
             </div>
 
@@ -77,7 +77,7 @@ export default class Navbar extends Component {
 
             <div className="dropdown">
               <NavLink to="/contact" activeClassName="activeNav">
-                <button className="dropbtn">Contact us</button>
+                <button className="dropbtn">Contact</button>
               </NavLink>
             </div>
 
