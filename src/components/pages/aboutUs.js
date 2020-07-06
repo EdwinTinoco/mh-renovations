@@ -16,6 +16,7 @@ export default class About extends Component {
             <h1>Who We Are</h1>
           </div>
         </div>
+
         <div className="aboutUs-body">
           <h1>Established 2020</h1>
           <h3>

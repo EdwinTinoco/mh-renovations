@@ -139,3 +139,33 @@
     }
   }
 }
+
+
+@media (max-width: 615px){
+  .aboutUs-wrapper{
+    .aboutUs-body{
+
+      h1{
+        text-align: center;
+      }
+
+      .about-profile{
+        display: flex;
+        flex-direction: column;
+
+        .avatar-image{
+          text-align: center;
+
+          img{
+            width: 200px;
+            height: 400px;
+          }
+        }
+
+        .aboutDescription{
+          text-align: center;
+        }
+      }
+    }
+  }
+}
