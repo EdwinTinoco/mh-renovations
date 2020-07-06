@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../../../static/assets/images/logo/mh_logo2.png";
+import Logo from "../../../static/assets/images/logo/mh_transparent.png";
 
 export default class Navbar extends Component {
   render() {
@@ -32,14 +32,19 @@ export default class Navbar extends Component {
         <div className="rightColumn">
           <div className="menuIcon-wrapper">{menu}</div>
           <div className="links-wrapper">
+
             <div className="dropdown">
-              <button className="dropbtn">About Us</button>
-              <div className="dropdown-content">
-                <NavLink to="/about" activeClassName="activeNav">
-                  Who we are
-                </NavLink>
-              </div>
+              <NavLink to="/" activeClassName="activeNav">
+                <button className="dropbtn">Home</button>
+              </NavLink>
             </div>
+
+            <div className="dropdown">
+              <NavLink to="/about" activeClassName="activeNav">
+                <button className="dropbtn">About us</button>
+              </NavLink>
+            </div>
+
             <div className="dropdown">
               <button className="dropbtn">Services</button>
               <div className="dropdown-content">
@@ -57,6 +62,7 @@ export default class Navbar extends Component {
                 </NavLink>
               </div>
             </div>
+
             <div className="dropdown">
               <button className="dropbtn">Projects</button>
               <div className="dropdown-content">
@@ -68,11 +74,13 @@ export default class Navbar extends Component {
                 </NavLink>
               </div>
             </div>
+
             <div className="dropdown">
               <NavLink to="/contact" activeClassName="activeNav">
-                <button className="dropbtn">Contact Us</button>
+                <button className="dropbtn">Contact us</button>
               </NavLink>
             </div>
+
             <div className="dropdown">
               <NavLink to="/get-quote" activeClassName="activeNav">
                 <button className="dropbtn">Get a Quote</button>

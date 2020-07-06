@@ -4,9 +4,9 @@ import Icons from "../helpers/icons";
 
 import Navbar from "./navBar/navBar";
 import Home from "./pages/home";
-import About from "./pages/aboutUs.js";
-import ServiceKitchens from "./pages/service-kitchens.js";
-import PortfolioHotels from "./pages/portfolio-hotels.js";
+import About from "./pages/aboutUs";
+import ServiceKitchens from "./pages/service-kitchens";
+import PortfolioHotels from "./pages/portfolio-hotels";
 import Lobby from "./portfolio/lobby";
 import GuestRoom from "./portfolio/guest-room";
 import ContactUs from "./pages/contact";
