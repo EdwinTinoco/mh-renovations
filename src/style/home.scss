@@ -49,8 +49,8 @@
             line-height: 0;
             position: relative;
             max-width: 100%;
-            width: 19vw;
-            height: 20vh;            
+            width: 320px;
+            height: 230px;            
             vertical-align: middle;
             border: 0;
             transition: transform 0.3s;
@@ -92,7 +92,6 @@
             font-size: 3em;
             color: #1452c5; 
             font-family: 'Heebo', sans-serif;
-            font-weight: 900;
          }
 
          .title p{
@@ -206,16 +205,17 @@
             color: #fff; 
             font-size: 3.5em;
             position: relative;
-            font-family: 'Heebo', sans-serif;    
-            font-weight: 900;
+            font-family: 'Heebo', sans-serif;  
          }
 
          .description{
             padding: 0px 60px;
+            margin-bottom: 40px;
+
             p{
                color: #fff;
-               font-size: 1.5em;
-               font-weight: bold;
+               font-size: 1.8em;
+               
                position: relative;
                font-family: inherit;
             }
@@ -269,6 +269,89 @@
                width: 12vw;
                height: 12vh;
                border-radius: 5px;
+            }
+         }
+      }
+   }
+}
+
+
+@media (max-width: 615px){
+   .home-main-wrapper{
+      .some-categories-wrapper{
+         .categories{
+            flex-direction: column;
+
+            .category{
+               margin-bottom: 50px;
+            }
+         }
+      }
+
+      .hero-content-wrapper{
+         .contractors-info{
+            .main-title h1{
+               text-align: center;
+               font-size: 2.3em;
+            }
+
+            .title p{
+               text-align: center;
+               font-size: 1.8em;
+            }
+
+            .hero-description{
+               width: 90%;
+   
+               p{
+                  font-size: 1.4em;
+                  color: #545454;
+               }
+            }
+         }
+
+         .virtual-budget-consultation{
+            .title{
+               text-align: center;
+            }
+
+            .schedule-link{
+               padding: 0px 30px;
+            }
+         }
+
+         .hero-image-wrapper{
+            padding: 30px;
+            height: 500px;
+
+            .title h1{
+               width: 100%;
+               text-align: center;
+               font-size: 2.8em;
+            }
+
+            .description{
+               width: 80%;
+               margin-bottom: 30px;
+               text-align: center;
+
+               p{
+                  font-size: 1.3em;
+               }
+            }
+         }
+
+         .brands-wrapper{
+            .brand-img-wrapper{
+               display: grid;
+               grid-template-columns: 1fr 1fr;
+                  
+               .img img{
+                  width: 200px;
+                  height: 150px;
+                  border-radius: 5px;
+                  margin-bottom: 20px;
+               }
             }
          }
       }
