@@ -1,7 +1,11 @@
 import React, { Component } from "react";
-import profile1 from "../../../static/assets/images/aboutUs/profile1.png";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import SubscribeNewsletter from "../subscribe/subscribe-newsletter";
+import profile1 from "../../../static/assets/images/aboutUs/profile1.png";
+
+
 
 export default class About extends Component {
   render() {
@@ -39,7 +43,7 @@ export default class About extends Component {
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h2>First and last name</h2>
+              <h2>Hector Barrera</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -60,7 +64,7 @@ export default class About extends Component {
               <img src={profile1} />
             </div>
             <div className="aboutDescription">
-              <h2>First and last name</h2>
+              <h2>Maximiliano Sorto</h2>
               <h3>Titles goes here</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -72,6 +76,17 @@ export default class About extends Component {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className="get-quote">
+          <Link to="/get-quote">
+            <div className="button">
+              <div className="icon">
+                <FontAwesomeIcon icon="phone" />
+              </div>
+                  Let's talk about your project
+               </div>
+          </Link>
         </div>
 
         <SubscribeNewsletter />
