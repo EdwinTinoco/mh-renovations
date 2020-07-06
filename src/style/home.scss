@@ -49,8 +49,8 @@
             line-height: 0;
             position: relative;
             max-width: 100%;
-            width: 19vw;
-            height: 20vh;            
+            width: 320px;
+            height: 230px;            
             vertical-align: middle;
             border: 0;
             transition: transform 0.3s;
@@ -92,7 +92,6 @@
             font-size: 3em;
             color: #1452c5; 
             font-family: 'Heebo', sans-serif;
-            font-weight: 900;
          }
 
          .title p{
@@ -269,6 +268,44 @@
                width: 12vw;
                height: 12vh;
                border-radius: 5px;
+            }
+         }
+      }
+   }
+}
+
+
+@media (max-width: 615px){
+   .home-main-wrapper{
+      .some-categories-wrapper{
+         .categories{
+            flex-direction: column;
+
+            .category{
+               margin-bottom: 50px;
+            }
+         }
+      }
+
+      .hero-content-wrapper{
+         .contractors-info{
+            .main-title h1{
+               text-align: center;
+               font-size: 1.8em;
+            }
+
+            .title p{
+               text-align: center;
+               font-size: 1.5em;
+            }
+
+            .hero-description{
+               width: 90%;
+   
+               p{
+                  font-size: 1.2em;
+                  color: #545454;
+               }
             }
          }
       }

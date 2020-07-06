@@ -26,6 +26,7 @@ export default function Home() {
             <div className="title">
                <h1>Hotels</h1>
             </div>
+
             <div className="categories">
                <div className="category">
                   <Link to="/service/kitchens">
@@ -175,13 +176,13 @@ export default function Home() {
          <div className="hero-content-wrapper">
             <div className="contractors-info">
                <div className="main-title">
-
                   <h1>M&H Renovations | Hotel and Residence Contractors</h1>
-
                </div>
+
                <div className="title">
                   <p>Family and Friends Owned and Operated for over 10 years</p>
                </div>
+
                <div className="hero-description">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis
                   non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh
