@@ -41,7 +41,7 @@ export default function GuestRoom() {
                   <p className="title">Project Details</p>
                   <div className="details">
                      <p>LOCATION: Lehi, UT</p>
-                     <p>TYPE:  Contemporary Lobby</p>
+                     <p>TYPE:  Guest Rooms</p>
                      <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -117,7 +117,7 @@ export default function GuestRoom() {
                   <p className="title">Project Details</p>
                   <div className="details">
                      <p>LOCATION: Lehi, UT</p>
-                     <p>TYPE: Contemporary Lobby</p>
+                     <p>TYPE: Guest Rooms</p>
                      <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>

@@ -7,6 +7,7 @@ import Kitchen002 from "../kitchens/images/kitchen002.jpg"
 import Kitchen004 from "../kitchens/images/kitchen004.jpg"
 import Kitchen005 from "../kitchens/images/kitchen005.jpg"
 
+
 // import ComfortInn from "../home/brands/comfort-inn.png"
 // import HamptonInn from "../home/brands/hampton-inn.png"
 // import HolidayInn from "../home/brands/hi.png"
