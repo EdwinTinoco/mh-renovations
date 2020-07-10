@@ -1,0 +1,146 @@
+.lobby-main-wrapper{
+    .main-title{
+       font-family: 'Heebo', sans-serif;
+       background-color: #273cb3;
+       height: 250px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);      
+ 
+       h1{
+          font-size: 2.5em;
+          color: #fff;
+          // color: #273cb3;
+ 
+       }
+    }
+ 
+    .content{
+       margin-top: 60px;
+ 
+       .title-project{
+          text-align: left;
+          margin-left: 60px;
+          color: #273cb3;
+       }
+ 
+       .images-details{
+          display: grid;
+          grid-template-columns: 1.5fr 1fr;
+          margin-left: 60px;
+          grid-gap: 40px;
+    
+          .left-column{          
+             .title{
+                text-align: left;
+                font-size: 1.7em;
+             }
+ 
+             .images{
+                display: grid;
+                grid-template-columns: 1fr 1fr;  
+                grid-gap: 10px;    
+                
+                .img{
+                   display: flex;
+                   justify-content: center;                     
+ 
+                   img{
+                      height: 30vh;
+                      width: 27vw;
+                      padding-bottom: 30px; 
+                   }
+                }
+             }
+          }
+ 
+          .right-column{
+             margin-right: 45px;
+ 
+             .title{               
+                font-size: 1.7em;
+             }
+ 
+            .details{
+               font-family: inherit;
+ 
+ 
+               p{
+                  font-size: 1.1em;
+               }
+ 
+               li{
+                font-size: 1.2em;
+               }
+ 
+               .project-overview{
+                  width: 70%;
+ 
+                  .title{
+                     font-size: 1.5em;
+                  }
+               }
+               
+               .get-quote{
+                   padding-top: 35px;
+                   padding-bottom: 70px;
+ 
+                   a{
+                      text-decoration: none;
+                   }
+       
+                   .button{     
+                      width: 200px;
+                      height: 55px;          
+                      background-color: #273cb3;
+                      border: 1px solid #273cb3;
+                      padding: 5px 60px;
+                      border-radius: 5px;
+                      color: whitesmoke;
+                      font-size: 1.5em;
+                      font-family: inherit;
+                      outline: none;
+                      transition: 0.3s ease-in-out;  
+                      display: flex;     
+                      justify-content: center;
+                      align-items: center;       
+          
+                      .icon{
+                         margin-right: 15px;
+                         font-size: 1em;
+                      }
+          
+                      &:hover{
+                         background-color: #5762a3;
+                         border: 1px solid #5762a3;
+                         cursor: pointer;
+                      }
+          
+                      &:active {
+                         box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+                      }
+                   }
+                }
+             }
+          }
+       }
+ 
+       .images-project{
+          margin: 60px;
+ 
+          .images{
+             display: grid;
+             grid-template-columns: 1fr 1fr 1fr 1fr;
+             grid-gap: 5px;
+             margin: 50px;
+ 
+             img{
+                height: 20vh;
+                width: 15vw;
+                margin-bottom: 60px;
+             }
+          }
+       }
+    }
+ }

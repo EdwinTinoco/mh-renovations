@@ -8,20 +8,13 @@ import Kitchen004 from "../kitchens/images/kitchen004.jpg"
 import Kitchen005 from "../kitchens/images/kitchen005.jpg"
 
 
-// import ComfortInn from "../home/brands/comfort-inn.png"
-// import HamptonInn from "../home/brands/hampton-inn.png"
-// import HolidayInn from "../home/brands/hi.png"
-// import HolidayInnEx from "../home/brands/holiday-inn-ex.png"
-// import SleepInn from "../home/brands/sleep-inn.png"
-// import SpringHill from "../home/brands/springhill.png"
-
 export default function PortfolioResidences() {
    const [option, setOption] = useState("lobby")
    return (
       <div className="portfolio-main-wrapper">
          <div className="title-img">
             <div className="title">
-               <h1>Portfolio: Home Renovations</h1>
+               <h1>PORTFOLIO: Home Renovations</h1>
             </div>
          </div>
 
@@ -29,49 +22,49 @@ export default function PortfolioResidences() {
             <div className="square">
 
                <div className="img">
-                  <Link to="/portfolio/residence/kitchen">
+                  <Link to="/portfolio/residence/kitchens">
                      <img src={Kitchen001} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence/kitchen">Kitchen</Link>
+                  <Link to="/portfolio/residence/kitchens">Kitchens</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/residence/bath">
+                  <Link to="/portfolio/residence/bathrooms">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence/bath">Bathrooms</Link>
+                  <Link to="/portfolio/residence/bathrooms">Bathrooms</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/residence/bedroom">
+                  <Link to="/portfolio/residence/bedrooms">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence/bedroom">Bedrooms</Link>
+                  <Link to="/portfolio/residence/bedrooms">Bedrooms</Link>
                </div>
             </div>
 
             <div className="square">
                <div className="img">
-                  <Link to="/portfolio/residence/laundry">
+                  <Link to="/portfolio/residence/laundry-rooms">
                      <img src={Kitchen002} />
                   </Link>
                </div>
 
                <div className="read-more">
-                  <Link to="/portfolio/residence/laundry">Laundry Rooms</Link>
+                  <Link to="/portfolio/residence/laundry-rooms">Laundry Rooms</Link>
                </div>
             </div>
 
@@ -87,33 +80,9 @@ export default function PortfolioResidences() {
                </div>
             </div>
          </div>
-         {/* 
-         <div className="brands-wrapper">
-            <div className="title">
-               <h2>Some brands we've worked with...</h2>
-            </div>
-            <div className="brand-img-wrapper">
-               <div className="img">
-                  <img src={ComfortInn} />
-               </div>
-               <div className="img">
-                  <img src={HamptonInn} />
-               </div>
-               <div className="img">
-                  <img src={HolidayInn} />
-               </div>
-               <div className="img">
-                  <img src={HolidayInnEx} />
-               </div>
-               <div className="img">
-                  <img src={SleepInn} />
-               </div>
-               <div className="img">
-                  <img src={SpringHill} />
-               </div> */}
-         {/* </div> */}
+      
       </div>
 
-      //   </div>
+    
    )
 }

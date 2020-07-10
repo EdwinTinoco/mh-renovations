@@ -11,7 +11,7 @@ export default function Lobby() {
    return (
       <div className="lobby-main-wrapper">
          <div className="main-title">
-            <h1>Lobbies</h1>
+            <h1>LOBBIES</h1>
          </div>
 
          <div className="content">

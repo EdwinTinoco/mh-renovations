@@ -11,7 +11,7 @@ export default function GuestRoom() {
    return (
       <div className="lobby-main-wrapper">
          <div className="main-title">
-            <h1>Guest Rooms</h1>
+            <h1>GUEST ROOMS</h1>
          </div>
 
          <div className="content">

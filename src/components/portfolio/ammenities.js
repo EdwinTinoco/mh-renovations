@@ -11,7 +11,7 @@ export default function Ammenities() {
    return (
       <div className="lobby-main-wrapper">
          <div className="main-title">
-            <h1>Ammenities</h1>
+            <h1>AMMENITIES</h1>
          </div>
 
          <div className="content">
