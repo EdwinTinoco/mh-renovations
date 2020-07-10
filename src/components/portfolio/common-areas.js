@@ -11,7 +11,7 @@ export default function CommonAreas() {
    return (
       <div className="lobby-main-wrapper">
          <div className="main-title">
-            <h1>Common Areas</h1>
+            <h1>COMMON AREAS</h1>
          </div>
 
          <div className="content">

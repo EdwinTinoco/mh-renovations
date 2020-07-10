@@ -11,7 +11,7 @@ export default function GuestRoom() {
    return (
       <div className="lobby-main-wrapper">
          <div className="main-title">
-            <h1>Guest Rooms</h1>
+            <h1>GUEST ROOMS</h1>
          </div>
 
          <div className="content">
@@ -41,7 +41,7 @@ export default function GuestRoom() {
                   <p className="title">Project Details</p>
                   <div className="details">
                      <p>LOCATION: Lehi, UT</p>
-                     <p>TYPE:  Contemporary Lobby</p>
+                     <p>TYPE:  Guest Rooms</p>
                      <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -117,7 +117,7 @@ export default function GuestRoom() {
                   <p className="title">Project Details</p>
                   <div className="details">
                      <p>LOCATION: Lehi, UT</p>
-                     <p>TYPE: Contemporary Lobby</p>
+                     <p>TYPE: Guest Rooms</p>
                      <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>

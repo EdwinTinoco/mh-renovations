@@ -7,16 +7,16 @@ import Kitchen002 from "../kitchens/images/kitchen002.jpg"
 import Kitchen004 from "../kitchens/images/kitchen004.jpg"
 import Kitchen005 from "../kitchens/images/kitchen005.jpg"
 
-export default function BackOffice() {
+export default function LaundryRooms() {
    return (
       <div className="lobby-main-wrapper">
          <div className="main-title">
-            <h1>BACK OFFICES</h1>
+            <h1>LAUNDRY ROOMS</h1>
          </div>
 
          <div className="content">
             <div className="title-project">
-               <h1>Spring Hill Inn & Suites</h1>
+               <h1>Residence One</h1>
             </div>
             <div className="images-details">
                <div className="left-column">
@@ -40,8 +40,8 @@ export default function BackOffice() {
                <div className="right-column">
                   <p className="title">Project Details</p>
                   <div className="details">
-                     <p>LOCATION: Lehi, UT</p>
-                     <p>TYPE:  Back Office</p>
+                     <p>LOCATION: SLC, UT</p>
+                     <p>TYPE:  Laundry Room</p>
                      <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -92,7 +92,7 @@ export default function BackOffice() {
 
          <div className="content">
             <div className="title-project">
-               <h1>Holiday Inn Hotel</h1>
+               <h1>Residence Two</h1>
             </div>
             <div className="images-details">
                <div className="left-column">
@@ -114,10 +114,10 @@ export default function BackOffice() {
                </div>
 
                <div className="right-column">
-                  <p className="title">Projects Details</p>
+                  <p className="title">Project Details</p>
                   <div className="details">
-                     <p>LOCATION: Lehi, UT</p>
-                     <p>TYPE: Back Office</p>
+                     <p>LOCATION: American Fork, UT</p>
+                     <p>TYPE: Laundry Room</p>
                      <p>FEATURES:</p>
                      <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>

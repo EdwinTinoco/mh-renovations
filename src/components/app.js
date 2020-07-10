@@ -6,18 +6,26 @@ import Navbar from "./navBar/navBar";
 import Home from "./pages/home";
 import About from "./pages/aboutUs";
 import ServiceKitchens from "./pages/service-kitchens";
-import PortfolioHotels from "./pages/portfolio-hotels";
-import Lobby from "./portfolio/lobby";
-import GuestRoom from "./portfolio/guest-room";
 import ContactUs from "./pages/contact";
 import GetQuote from "./pages/get-quote";
 import Footer from "./footer/footer";
 import SideDrawer from "./sideDrawer/sideDrawer";
 import Backdrop from "./backdrop/backdrop";
+
+import PortfolioHotels from "./pages/portfolio-hotels";
 import Ammenities from "./portfolio/ammenities";
 import BackOffice from "./portfolio/back-office";
 import CommonAreas from "./portfolio/common-areas";
+import Lobby from "./portfolio/lobby";
+import GuestRoom from "./portfolio/guest-room";
+
 import PortfolioResidences from "./pages/portfolio-residences";
+import Kitchens from "./portfolio/kitchens";
+import Bathrooms from "./portfolio/bathrooms";
+import Bedrooms from "./portfolio/bedrooms";
+import LaundryRooms from "./portfolio/laundry-rooms";
+import LivingAreas from "./portfolio/living-areas";
+
 
 export default class App extends Component {
   constructor(props) {
@@ -68,10 +76,14 @@ export default class App extends Component {
             <Route path="/portfolio/hotel/back-office" component={BackOffice} />
             <Route path="/portfolio/hotel/common-areas" component={CommonAreas} />
 
+
             <Route path="/portfolio/residences" component={PortfolioResidences} />
-            {/* <Route path="/pages/portfolio-residence-kitchen" component={ResidenceKitchen} />
-            <Route path="/pages/portfolio-residence-bath" component={ResidenceBath}/>
-            <Route path="/pages/portfolio-residence-bedroom" component={ResidenceBedroom} /> */}
+            <Route path="/portfolio/residence/kitchens" component={Kitchens} />
+            <Route path="/portfolio/residence/bathrooms" component={Bathrooms} />
+            <Route path="/portfolio/residence/bedrooms" component={Bedrooms} />
+            <Route path="/portfolio/residence/laundry-rooms" component={LaundryRooms} />
+            <Route path="/portfolio/residence/living-areas" component={LivingAreas} />
+
 
 
             <Route path="/contact" component={ContactUs} />
